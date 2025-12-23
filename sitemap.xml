@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://webuildpillars.org/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://webuildpillars.org/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://webuildpillars.org/"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://webuildpillars.org/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://webuildpillars.org/about.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/sobre-nosotros.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/a-propos.html"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- How It Works -->
+  <url>
+    <loc>https://webuildpillars.org/how-it-works.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://webuildpillars.org/how-it-works.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/como-funciona.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/comment-ca-marche.html"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Request Domain -->
+  <url>
+    <loc>https://webuildpillars.org/request-domain.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://webuildpillars.org/request-domain.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/solicitar-dominio.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/demander-domaine.html"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Pillars - Nonprofits -->
+  <url>
+    <loc>https://webuildpillars.org/pillars/nonprofits.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://webuildpillars.org/pillars/nonprofits.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/pilares/organizaciones.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/piliers/organisations.html"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Pillars - Artists -->
+  <url>
+    <loc>https://webuildpillars.org/pillars/artists.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://webuildpillars.org/pillars/artists.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/pilares/artistas.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/piliers/artistes.html"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Pillars - Knowledge Builders -->
+  <url>
+    <loc>https://webuildpillars.org/pillars/knowledge-builders.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://webuildpillars.org/pillars/knowledge-builders.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/pilares/constructores-conocimiento.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/piliers/batisseurs-savoir.html"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Works -->
+  <url>
+    <loc>https://webuildpillars.org/works.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://webuildpillars.org/works.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/obras.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/travaux.html"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- FAQ -->
+  <url>
+    <loc>https://webuildpillars.org/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://webuildpillars.org/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/preguntas-frecuentes.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/faq.html"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://webuildpillars.org/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://webuildpillars.org/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/contacto.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/contact.html"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- AI Tools -->
+  <url>
+    <loc>https://webuildpillars.org/ai-tools.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://webuildpillars.org/ai-tools.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/herramientas-ia.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/outils-ia.html"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Success Stories -->
+  <url>
+    <loc>https://webuildpillars.org/success-stories.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://webuildpillars.org/success-stories.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/historias-exito.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/temoignages.html"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
