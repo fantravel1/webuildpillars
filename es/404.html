@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Página No Encontrada | We Build Pillars</title>
+  <meta name="description" content="La página que buscas no existe o ha sido movida.">
+  <meta name="robots" content="noindex, nofollow">
+
+  <link rel="icon" type="image/svg+xml" href="/assets/images/icons/favicon.svg">
+  <meta name="theme-color" content="#7c3aed">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/variables.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <header class="header">
+    <div class="container header__container">
+      <a href="/es/" class="logo"><span class="logo__text">We Build Pillars</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav"><span class="nav-toggle__bar"></span><span class="nav-toggle__bar"></span><span class="nav-toggle__bar"></span></button>
+      <nav class="nav" id="main-nav" data-visible="false">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="/es/" class="nav__link">Inicio</a></li>
+          <li class="nav__item"><a href="/es/sobre-nosotros.html" class="nav__link">Nosotros</a></li>
+          <li class="nav__item"><a href="/es/como-funciona.html" class="nav__link">Cómo Funciona</a></li>
+          <li class="nav__item"><a href="/es/pilares/organizaciones.html" class="nav__link">Pilares</a></li>
+          <li class="nav__item"><a href="/es/obras.html" class="nav__link">Obras</a></li>
+          <li class="nav__item"><a href="/es/preguntas-frecuentes.html" class="nav__link">FAQ</a></li>
+          <li class="nav__item"><a href="/es/contacto.html" class="nav__link">Contacto</a></li>
+        </ul>
+        <a href="/es/solicitar-dominio.html" class="btn btn--primary nav__cta">Solicitar Dominio</a>
+      </nav>
+      <div class="nav-overlay" data-visible="false"></div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="section section--centered" style="min-height: 60vh; display: flex; align-items: center;">
+      <div class="container container--narrow">
+        <div class="error-page">
+          <h1 class="error-page__code">404</h1>
+          <h2 class="error-page__title">Página No Encontrada</h2>
+          <p class="error-page__text">La página que buscas no existe o ha sido movida. Probemos encontrar lo que necesitas.</p>
+          <div class="error-page__actions">
+            <a href="/es/" class="btn btn--primary">Ir al Inicio</a>
+            <a href="/es/contacto.html" class="btn btn--outline">Contáctanos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--light">
+      <div class="container container--narrow">
+        <h2 class="section__title text-center">Páginas Populares</h2>
+        <ul class="popular-links">
+          <li><a href="/es/solicitar-dominio.html">Solicitar un Dominio</a></li>
+          <li><a href="/es/como-funciona.html">Cómo Funciona</a></li>
+          <li><a href="/es/preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+          <li><a href="/es/obras.html">Obras e Ideas</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand"><a href="/es/" class="logo logo--footer"><span class="logo__text">We Build Pillars</span></a></div>
+        <nav class="footer__nav"><h3 class="footer__heading">Navegar</h3><ul class="footer__list"><li><a href="/es/sobre-nosotros.html">Nosotros</a></li><li><a href="/es/como-funciona.html">Cómo Funciona</a></li><li><a href="/es/solicitar-dominio.html">Solicitar Dominio</a></li></ul></nav>
+        <nav class="footer__nav"><h3 class="footer__heading">Pilares</h3><ul class="footer__list"><li><a href="/es/pilares/organizaciones.html">Organizaciones</a></li><li><a href="/es/pilares/artistas.html">Artistas</a></li><li><a href="/es/pilares/constructores-conocimiento.html">Conocimiento</a></li></ul></nav>
+        <nav class="footer__nav"><h3 class="footer__heading">Recursos</h3><ul class="footer__list"><li><a href="/es/obras.html">Obras</a></li><li><a href="/es/preguntas-frecuentes.html">FAQ</a></li><li><a href="/es/contacto.html">Contacto</a></li></ul></nav>
+      </div>
+      <div class="footer__bottom"><p class="footer__copyright">&copy; <span id="current-year">2025</span> We Build Pillars.</p></div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/language.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
+
+  <style>
+    .error-page { text-align: center; padding: 2rem 0; }
+    .error-page__code { font-family: var(--font-display); font-size: clamp(5rem, 15vw, 10rem); font-weight: 700; color: var(--color-primary); line-height: 1; margin-bottom: 0.5rem; }
+    .error-page__title { font-size: clamp(1.5rem, 4vw, 2rem); margin-bottom: 1rem; }
+    .error-page__text { font-size: 1.125rem; color: var(--color-text-muted); max-width: 400px; margin: 0 auto 2rem; }
+    .error-page__actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    .popular-links { list-style: none; padding: 0; display: grid; gap: 0.75rem; max-width: 400px; margin: 1.5rem auto 0; }
+    .popular-links a { display: block; padding: 1rem; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-md); text-decoration: none; color: var(--color-text); transition: border-color 0.2s; }
+    .popular-links a:hover { border-color: var(--color-primary); }
+  </style>
+</body>
+</html>
