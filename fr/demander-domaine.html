@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Demander un Domaine | We Build Pillars</title>
+  <meta name="description" content="Demandez un domaine premium gratuit pour votre organisation à but non lucratif, projet artistique ou initiative de bâtisseur de savoir. Rejoignez les communautés piliers construisant l'équité numérique.">
+  <meta name="robots" content="index, follow">
+
+  <link rel="canonical" href="https://webuildpillars.org/fr/demander-domaine.html">
+  <link rel="alternate" hreflang="en" href="https://webuildpillars.org/request-domain.html">
+  <link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/solicitar-dominio.html">
+  <link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/demander-domaine.html">
+
+  <link rel="icon" type="image/svg+xml" href="/assets/images/icons/favicon.svg">
+  <meta name="theme-color" content="#7c3aed">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/variables.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+  <header class="header">
+    <div class="container header__container">
+      <a href="/fr/" class="logo"><span class="logo__text">We Build Pillars</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav"><span class="nav-toggle__bar"></span><span class="nav-toggle__bar"></span><span class="nav-toggle__bar"></span></button>
+      <nav class="nav" id="main-nav" data-visible="false">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="/fr/" class="nav__link">Accueil</a></li>
+          <li class="nav__item"><a href="/fr/a-propos.html" class="nav__link">À Propos</a></li>
+          <li class="nav__item"><a href="/fr/comment-ca-marche.html" class="nav__link">Comment Ça Marche</a></li>
+          <li class="nav__item"><a href="/fr/piliers/organisations.html" class="nav__link">Piliers</a></li>
+          <li class="nav__item"><a href="/fr/travaux.html" class="nav__link">Travaux</a></li>
+          <li class="nav__item"><a href="/fr/faq.html" class="nav__link">FAQ</a></li>
+          <li class="nav__item"><a href="/fr/contact.html" class="nav__link">Contact</a></li>
+        </ul>
+        <a href="/fr/demander-domaine.html" class="btn btn--primary nav__cta nav__cta--active">Demander un Domaine</a>
+      </nav>
+      <div class="nav-overlay" data-visible="false"></div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-header">
+      <div class="container">
+        <nav class="breadcrumb"><ol class="breadcrumb__list"><li class="breadcrumb__item"><a href="/fr/">Accueil</a></li><li class="breadcrumb__item" aria-current="page">Demander un Domaine</li></ol></nav>
+        <h1 class="page-header__title">Demander un Domaine</h1>
+        <p class="page-header__subtitle">Parlez-nous de votre travail et nous vous associerons à un domaine premium.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container container--narrow">
+        <div class="form-intro">
+          <p class="lead">Cette candidature prend environ <strong>10 minutes</strong>. Nous examinerons votre soumission dans les 5-7 jours ouvrables et vous contacterons avec les prochaines étapes.</p>
+        </div>
+
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="form" data-validate>
+          <fieldset class="form__fieldset">
+            <legend class="form__legend">Informations de Base</legend>
+
+            <div class="form__group">
+              <label for="name" class="form__label">Nom Complet <span class="form__required">*</span></label>
+              <input type="text" id="name" name="name" class="form__input" required autocomplete="name" placeholder="Votre nom complet">
+            </div>
+
+            <div class="form__group">
+              <label for="email" class="form__label">Email <span class="form__required">*</span></label>
+              <input type="email" id="email" name="email" class="form__input" required autocomplete="email" placeholder="vous@exemple.com">
+            </div>
+
+            <div class="form__group">
+              <label for="organization" class="form__label">Nom de l'Organisation (si applicable)</label>
+              <input type="text" id="organization" name="organization" class="form__input" placeholder="Votre organisation ou projet">
+            </div>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <legend class="form__legend">Catégorie de Pilier</legend>
+
+            <div class="form__group">
+              <label for="pillar-type" class="form__label">Quel pilier vous décrit le mieux? <span class="form__required">*</span></label>
+              <select id="pillar-type" name="pillar_type" class="form__select" required>
+                <option value="">Sélectionnez une catégorie</option>
+                <option value="nonprofit">Organisation à But Non Lucratif / Entreprise Sociale</option>
+                <option value="artist">Artiste / Créateur</option>
+                <option value="knowledge">Bâtisseur de Savoir / Éducateur</option>
+              </select>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label">Avec quelles communautés piliers vous identifiez-vous? <span class="form__required">*</span></label>
+              <p class="form__hint">Sélectionnez toutes celles qui s'appliquent.</p>
+              <div class="form__checkbox-group">
+                <label class="form__checkbox"><input type="checkbox" name="communities[]" value="black"><span class="form__checkbox-text">Noir(e)</span></label>
+                <label class="form__checkbox"><input type="checkbox" name="communities[]" value="brown"><span class="form__checkbox-text">Latino(a)</span></label>
+                <label class="form__checkbox"><input type="checkbox" name="communities[]" value="indigenous"><span class="form__checkbox-text">Indigène</span></label>
+                <label class="form__checkbox"><input type="checkbox" name="communities[]" value="queer"><span class="form__checkbox-text">LGBTQ+ / Queer</span></label>
+                <label class="form__checkbox"><input type="checkbox" name="communities[]" value="neurodiverse"><span class="form__checkbox-text">Neurodivergent(e)</span></label>
+                <label class="form__checkbox"><input type="checkbox" name="communities[]" value="female"><span class="form__checkbox-text">Femme / Non-binaire</span></label>
+                <label class="form__checkbox"><input type="checkbox" name="communities[]" value="migrant"><span class="form__checkbox-text">Migrant(e) / Immigrant(e)</span></label>
+                <label class="form__checkbox"><input type="checkbox" name="communities[]" value="disabled"><span class="form__checkbox-text">Différemment Capable</span></label>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <legend class="form__legend">Votre Travail</legend>
+
+            <div class="form__group">
+              <label for="mission" class="form__label">Décrivez votre mission ou travail <span class="form__required">*</span></label>
+              <p class="form__hint">Que faites-vous? Qui servez-vous? Quel impact voulez-vous créer?</p>
+              <textarea id="mission" name="mission" class="form__textarea" rows="5" required placeholder="Parlez-nous de votre mission, des communautés que vous servez et du changement que vous cherchez à créer..."></textarea>
+            </div>
+
+            <div class="form__group">
+              <label for="domain-purpose" class="form__label">Comment un domaine premium aiderait-il votre travail? <span class="form__required">*</span></label>
+              <textarea id="domain-purpose" name="domain_purpose" class="form__textarea" rows="4" required placeholder="Comment un nom de domaine professionnel soutiendrait-il vos objectifs? Quelles opportunités pourrait-il ouvrir?"></textarea>
+            </div>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <legend class="form__legend">Préparation</legend>
+
+            <div class="form__group">
+              <label for="tier-preference" class="form__label">Quel niveau d'engagement vous intéresse? <span class="form__required">*</span></label>
+              <select id="tier-preference" name="tier_preference" class="form__select" required>
+                <option value="">Sélectionnez un niveau</option>
+                <option value="foundation">Fondation - Juste le domaine</option>
+                <option value="growth">Croissance - Domaine + accompagnement email/hébergement</option>
+                <option value="impact">Impact - Soutien complet identité numérique</option>
+                <option value="legacy">Héritage - Partenariat stratégique</option>
+                <option value="unsure">Pas sûr(e) - Aidez-moi à décider</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <div class="form__submit">
+            <button type="submit" class="btn btn--primary btn--lg btn--full">Soumettre la Candidature</button>
+            <p class="form__disclaimer">En soumettant cette candidature, vous acceptez notre <a href="/privacy.html">Politique de Confidentialité</a>.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand"><a href="/fr/" class="logo logo--footer"><span class="logo__text">We Build Pillars</span></a></div>
+        <nav class="footer__nav"><h3 class="footer__heading">Navigation</h3><ul class="footer__list"><li><a href="/fr/a-propos.html">À Propos</a></li><li><a href="/fr/comment-ca-marche.html">Comment Ça Marche</a></li><li><a href="/fr/demander-domaine.html">Demander un Domaine</a></li></ul></nav>
+        <nav class="footer__nav"><h3 class="footer__heading">Piliers</h3><ul class="footer__list"><li><a href="/fr/piliers/organisations.html">Organisations</a></li><li><a href="/fr/piliers/artistes.html">Artistes</a></li><li><a href="/fr/piliers/batisseurs-savoir.html">Savoir</a></li></ul></nav>
+        <nav class="footer__nav"><h3 class="footer__heading">Ressources</h3><ul class="footer__list"><li><a href="/fr/travaux.html">Travaux</a></li><li><a href="/fr/faq.html">FAQ</a></li><li><a href="/fr/contact.html">Contact</a></li></ul></nav>
+      </div>
+      <div class="footer__bottom"><p class="footer__copyright">&copy; <span id="current-year">2025</span> We Build Pillars.</p></div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/language.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

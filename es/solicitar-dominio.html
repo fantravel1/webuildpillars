@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Solicitar un Dominio | We Build Pillars</title>
+  <meta name="description" content="Solicita un dominio premium gratuito para tu organización sin fines de lucro, proyecto artístico o iniciativa de construcción de conocimiento. Únete a las comunidades pilar construyendo equidad digital.">
+  <meta name="robots" content="index, follow">
+
+  <link rel="canonical" href="https://webuildpillars.org/es/solicitar-dominio.html">
+  <link rel="alternate" hreflang="en" href="https://webuildpillars.org/request-domain.html">
+  <link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/solicitar-dominio.html">
+  <link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/demander-domaine.html">
+
+  <link rel="icon" type="image/svg+xml" href="/assets/images/icons/favicon.svg">
+  <meta name="theme-color" content="#7c3aed">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/variables.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <header class="header">
+    <div class="container header__container">
+      <a href="/es/" class="logo"><span class="logo__text">We Build Pillars</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav"><span class="nav-toggle__bar"></span><span class="nav-toggle__bar"></span><span class="nav-toggle__bar"></span></button>
+      <nav class="nav" id="main-nav" data-visible="false">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="/es/" class="nav__link">Inicio</a></li>
+          <li class="nav__item"><a href="/es/sobre-nosotros.html" class="nav__link">Nosotros</a></li>
+          <li class="nav__item"><a href="/es/como-funciona.html" class="nav__link">Cómo Funciona</a></li>
+          <li class="nav__item"><a href="/es/pilares/organizaciones.html" class="nav__link">Pilares</a></li>
+          <li class="nav__item"><a href="/es/obras.html" class="nav__link">Obras</a></li>
+          <li class="nav__item"><a href="/es/preguntas-frecuentes.html" class="nav__link">FAQ</a></li>
+          <li class="nav__item"><a href="/es/contacto.html" class="nav__link">Contacto</a></li>
+        </ul>
+        <div class="lang-switch" role="group">
+          <button class="lang-switch__btn" data-lang="en">EN</button>
+          <button class="lang-switch__btn lang-switch__btn--active" data-lang="es">ES</button>
+          <button class="lang-switch__btn" data-lang="fr">FR</button>
+        </div>
+        <a href="/es/solicitar-dominio.html" class="btn btn--primary nav__cta nav__cta--active">Solicitar Dominio</a>
+      </nav>
+      <div class="nav-overlay" data-visible="false"></div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-header">
+      <div class="container">
+        <nav class="breadcrumb"><ol class="breadcrumb__list"><li class="breadcrumb__item"><a href="/es/">Inicio</a></li><li class="breadcrumb__item" aria-current="page">Solicitar Dominio</li></ol></nav>
+        <h1 class="page-header__title">Solicitar un Dominio</h1>
+        <p class="page-header__subtitle">Cuéntanos sobre tu trabajo y te emparejaremos con un dominio premium.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container container--narrow">
+        <div class="form-intro">
+          <p class="lead">
+            Esta solicitud toma aproximadamente <strong>10 minutos</strong>. Revisaremos tu envío dentro de 5-7 días hábiles y te contactaremos con los próximos pasos.
+          </p>
+        </div>
+
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="form" data-validate>
+          <fieldset class="form__fieldset">
+            <legend class="form__legend">Información Básica</legend>
+
+            <div class="form__group">
+              <label for="name" class="form__label">Nombre Completo <span class="form__required">*</span></label>
+              <input type="text" id="name" name="name" class="form__input" required autocomplete="name" placeholder="Tu nombre completo">
+            </div>
+
+            <div class="form__group">
+              <label for="email" class="form__label">Correo Electrónico <span class="form__required">*</span></label>
+              <input type="email" id="email" name="email" class="form__input" required autocomplete="email" placeholder="tu@ejemplo.com">
+            </div>
+
+            <div class="form__group">
+              <label for="organization" class="form__label">Nombre de la Organización (si aplica)</label>
+              <input type="text" id="organization" name="organization" class="form__input" placeholder="Tu organización o proyecto">
+            </div>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <legend class="form__legend">Categoría de Pilar</legend>
+
+            <div class="form__group">
+              <label for="pillar-type" class="form__label">¿Qué pilar te describe mejor? <span class="form__required">*</span></label>
+              <select id="pillar-type" name="pillar_type" class="form__select" required>
+                <option value="">Selecciona una categoría</option>
+                <option value="nonprofit">Organización sin fines de lucro / Empresa Social</option>
+                <option value="artist">Artista / Creador</option>
+                <option value="knowledge">Constructor de Conocimiento / Educador</option>
+              </select>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label">¿Con qué comunidades pilar te identificas? <span class="form__required">*</span></label>
+              <p class="form__hint">Selecciona todas las que apliquen.</p>
+              <div class="form__checkbox-group">
+                <label class="form__checkbox"><input type="checkbox" name="communities[]" value="black"><span class="form__checkbox-text">Negro/a</span></label>
+                <label class="form__checkbox"><input type="checkbox" name="communities[]" value="brown"><span class="form__checkbox-text">Latino/a</span></label>
+                <label class="form__checkbox"><input type="checkbox" name="communities[]" value="indigenous"><span class="form__checkbox-text">Indígena</span></label>
+                <label class="form__checkbox"><input type="checkbox" name="communities[]" value="queer"><span class="form__checkbox-text">LGBTQ+ / Queer</span></label>
+                <label class="form__checkbox"><input type="checkbox" name="communities[]" value="neurodiverse"><span class="form__checkbox-text">Neurodiverso/a</span></label>
+                <label class="form__checkbox"><input type="checkbox" name="communities[]" value="female"><span class="form__checkbox-text">Mujer / No binario</span></label>
+                <label class="form__checkbox"><input type="checkbox" name="communities[]" value="migrant"><span class="form__checkbox-text">Migrante / Inmigrante</span></label>
+                <label class="form__checkbox"><input type="checkbox" name="communities[]" value="disabled"><span class="form__checkbox-text">Con Capacidades Diferentes</span></label>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <legend class="form__legend">Tu Trabajo</legend>
+
+            <div class="form__group">
+              <label for="mission" class="form__label">Describe tu misión o trabajo <span class="form__required">*</span></label>
+              <p class="form__hint">¿Qué haces? ¿A quién sirves? ¿Qué impacto quieres crear?</p>
+              <textarea id="mission" name="mission" class="form__textarea" rows="5" required placeholder="Cuéntanos sobre tu misión, las comunidades a las que sirves y el cambio que buscas crear..."></textarea>
+            </div>
+
+            <div class="form__group">
+              <label for="domain-purpose" class="form__label">¿Cómo ayudaría un dominio premium a tu trabajo? <span class="form__required">*</span></label>
+              <textarea id="domain-purpose" name="domain_purpose" class="form__textarea" rows="4" required placeholder="¿Cómo apoyaría un nombre de dominio profesional tus metas? ¿Qué oportunidades podría abrir?"></textarea>
+            </div>
+          </fieldset>
+
+          <fieldset class="form__fieldset">
+            <legend class="form__legend">Preparación</legend>
+
+            <div class="form__group">
+              <label for="tier-preference" class="form__label">¿Qué nivel de compromiso te interesa? <span class="form__required">*</span></label>
+              <select id="tier-preference" name="tier_preference" class="form__select" required>
+                <option value="">Selecciona un nivel</option>
+                <option value="foundation">Fundación - Solo el dominio</option>
+                <option value="growth">Crecimiento - Dominio + guía de email/hosting</option>
+                <option value="impact">Impacto - Soporte completo de identidad digital</option>
+                <option value="legacy">Legado - Asociación estratégica</option>
+                <option value="unsure">No estoy seguro - Ayúdame a decidir</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <div class="form__submit">
+            <button type="submit" class="btn btn--primary btn--lg btn--full">Enviar Solicitud</button>
+            <p class="form__disclaimer">
+              Al enviar esta solicitud, aceptas nuestra <a href="/privacy.html">Política de Privacidad</a>.
+            </p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section section--light">
+      <div class="container container--narrow">
+        <h2 class="section__title">¿Qué Sigue?</h2>
+        <div class="timeline">
+          <div class="timeline__item" data-animate>
+            <div class="timeline__marker">1</div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Revisión de Solicitud</h3>
+              <p class="timeline__text">Nuestro equipo revisa cada solicitud dentro de 5-7 días hábiles.</p>
+            </div>
+          </div>
+          <div class="timeline__item" data-animate>
+            <div class="timeline__marker">2</div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Conversación de Seguimiento</h3>
+              <p class="timeline__text">Si somos compatibles, te contactaremos para conocer más sobre tus necesidades.</p>
+            </div>
+          </div>
+          <div class="timeline__item" data-animate>
+            <div class="timeline__marker">3</div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Emparejamiento de Dominio</h3>
+              <p class="timeline__text">Presentaremos opciones de dominio de nuestro portafolio que coincidan con tu misión.</p>
+            </div>
+          </div>
+          <div class="timeline__item" data-animate>
+            <div class="timeline__marker">4</div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Transferencia y Soporte</h3>
+              <p class="timeline__text">Una vez que elijas, transferimos la propiedad y brindamos soporte basado en tu nivel.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand"><a href="/es/" class="logo logo--footer"><span class="logo__text">We Build Pillars</span></a></div>
+        <nav class="footer__nav"><h3 class="footer__heading">Navegar</h3><ul class="footer__list"><li><a href="/es/sobre-nosotros.html">Nosotros</a></li><li><a href="/es/como-funciona.html">Cómo Funciona</a></li><li><a href="/es/solicitar-dominio.html">Solicitar Dominio</a></li></ul></nav>
+        <nav class="footer__nav"><h3 class="footer__heading">Pilares</h3><ul class="footer__list"><li><a href="/es/pilares/organizaciones.html">Organizaciones</a></li><li><a href="/es/pilares/artistas.html">Artistas</a></li><li><a href="/es/pilares/constructores-conocimiento.html">Conocimiento</a></li></ul></nav>
+        <nav class="footer__nav"><h3 class="footer__heading">Recursos</h3><ul class="footer__list"><li><a href="/es/obras.html">Obras</a></li><li><a href="/es/preguntas-frecuentes.html">FAQ</a></li><li><a href="/es/contacto.html">Contacto</a></li></ul></nav>
+      </div>
+      <div class="footer__bottom"><p class="footer__copyright">&copy; <span id="current-year">2025</span> We Build Pillars.</p></div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/language.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
