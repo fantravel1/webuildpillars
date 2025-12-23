@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Best Practices for Databases | We Build Pillars</title>
+  <meta name="description" content="Data management fundamentals for organizations building digital archives. Learn how to structure, protect, and leverage your organization's data.">
+  <meta name="keywords" content="database best practices, nonprofit data, CRM, data management, digital archive">
+
+  <link rel="canonical" href="https://webuildpillars.org/works/posts/database-best-practices.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Best Practices for Databases | We Build Pillars">
+  <meta property="article:section" content="Technical">
+
+  <link rel="icon" type="image/svg+xml" href="/assets/images/icons/favicon.svg">
+  <meta name="theme-color" content="#7c3aed">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/variables.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="header">
+    <div class="container header__container">
+      <a href="/" class="logo"><span class="logo__text">We Build Pillars</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav"><span class="nav-toggle__bar"></span><span class="nav-toggle__bar"></span><span class="nav-toggle__bar"></span></button>
+      <nav class="nav" id="main-nav" data-visible="false">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="/" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="/about.html" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="/how-it-works.html" class="nav__link">How It Works</a></li>
+          <li class="nav__item"><a href="/pillars/nonprofits.html" class="nav__link">Pillars</a></li>
+          <li class="nav__item"><a href="/works.html" class="nav__link nav__link--active">Works</a></li>
+          <li class="nav__item"><a href="/faq.html" class="nav__link">FAQ</a></li>
+          <li class="nav__item"><a href="/contact.html" class="nav__link">Contact</a></li>
+        </ul>
+        <a href="/request-domain.html" class="btn btn--primary nav__cta">Request a Domain</a>
+      </nav>
+      <div class="nav-overlay" data-visible="false"></div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <article class="article">
+      <header class="article__header">
+        <div class="container container--narrow">
+          <nav class="breadcrumb"><ol class="breadcrumb__list"><li class="breadcrumb__item"><a href="/">Home</a></li><li class="breadcrumb__item"><a href="/works.html">Works</a></li><li class="breadcrumb__item" aria-current="page">Best Practices for Databases</li></ol></nav>
+          <div class="article__meta">
+            <span class="article__category">Technical</span>
+            <time class="article__date" datetime="2025-01-01">January 2025</time>
+          </div>
+          <h1 class="article__title">Best Practices for Databases</h1>
+          <p class="article__subtitle">Data management fundamentals for organizations building digital archives.</p>
+        </div>
+      </header>
+
+      <div class="article__body">
+        <div class="container container--narrow">
+          <div class="prose">
+            <p class="lead">
+              Your organization's data is one of its most valuable assets. Whether you're managing donor records, community archives, or creative portfolios, how you structure and protect that data matters.
+            </p>
+
+            <h2>Start with Purpose</h2>
+            <p>
+              Before choosing a database, answer these questions:
+            </p>
+            <ul>
+              <li><strong>What data are you collecting?</strong> Contacts, donations, content, member info?</li>
+              <li><strong>Who needs access?</strong> Staff, volunteers, the public?</li>
+              <li><strong>How will you use it?</strong> Reporting, outreach, archiving, analysis?</li>
+              <li><strong>What's your growth trajectory?</strong> 100 records or 100,000?</li>
+            </ul>
+
+            <h2>Common Database Types</h2>
+
+            <h3>CRM (Customer Relationship Management)</h3>
+            <p>
+              For managing relationships with donors, members, or clients. Popular options for nonprofits:
+            </p>
+            <ul>
+              <li><strong>Salesforce Nonprofit:</strong> Powerful but complex, free for qualifying nonprofits</li>
+              <li><strong>Bloomerang:</strong> Donor-focused, easier learning curve</li>
+              <li><strong>Airtable:</strong> Flexible, good for smaller organizations</li>
+            </ul>
+
+            <h3>Content Management Databases</h3>
+            <p>
+              For managing articles, media, or creative works. Most CMS platforms (WordPress, etc.) have built-in databases. For larger archives:
+            </p>
+            <ul>
+              <li><strong>Omeka:</strong> Built for cultural heritage archives</li>
+              <li><strong>CollectiveAccess:</strong> For museums and archives</li>
+            </ul>
+
+            <h3>Spreadsheets (When Appropriate)</h3>
+            <p>
+              Sometimes a well-organized spreadsheet is enough. Use spreadsheets when:
+            </p>
+            <ul>
+              <li>You have fewer than 1,000 records</li>
+              <li>You don't need complex relationships between data</li>
+              <li>You have limited technical capacity</li>
+              <li>You're just starting out</li>
+            </ul>
+
+            <h2>Core Best Practices</h2>
+
+            <h3>1. Data Hygiene</h3>
+            <ul>
+              <li><strong>Consistent formatting:</strong> Decide on standards (dates, phone numbers, addresses) and enforce them</li>
+              <li><strong>Regular cleaning:</strong> Remove duplicates, update outdated info quarterly</li>
+              <li><strong>Required fields:</strong> Define what information is essential vs. optional</li>
+            </ul>
+
+            <h3>2. Security and Privacy</h3>
+            <ul>
+              <li><strong>Access control:</strong> Limit who can view/edit sensitive data</li>
+              <li><strong>Encryption:</strong> Protect data in transit and at rest</li>
+              <li><strong>Privacy compliance:</strong> Know your obligations (GDPR, state laws)</li>
+              <li><strong>Data minimization:</strong> Only collect what you actually need</li>
+            </ul>
+
+            <h3>3. Backup and Recovery</h3>
+            <ul>
+              <li><strong>Regular backups:</strong> Automated, off-site, tested regularly</li>
+              <li><strong>Version history:</strong> Ability to recover from mistakes</li>
+              <li><strong>Disaster plan:</strong> Know how you'd recover if everything failed</li>
+            </ul>
+
+            <h3>4. Documentation</h3>
+            <ul>
+              <li><strong>Data dictionary:</strong> Document what each field means and how it's used</li>
+              <li><strong>Process documentation:</strong> How data is entered, cleaned, and maintained</li>
+              <li><strong>Access logs:</strong> Know who accessed what and when</li>
+            </ul>
+
+            <h2>For Knowledge Builders: Archive Considerations</h2>
+            <p>
+              If you're preserving cultural or historical content, additional considerations apply:
+            </p>
+            <ul>
+              <li><strong>Metadata standards:</strong> Use established standards (Dublin Core, etc.) for discoverability</li>
+              <li><strong>File formats:</strong> Prefer open, non-proprietary formats for long-term access</li>
+              <li><strong>Provenance:</strong> Document where materials came from and chain of custody</li>
+              <li><strong>Rights management:</strong> Track copyright, permissions, cultural sensitivities</li>
+            </ul>
+
+            <div class="article__cta">
+              <h3>Build Your Archive's Home</h3>
+              <p>A premium domain gives your archive a permanent, professional address.</p>
+              <a href="/request-domain.html" class="btn btn--primary">Request a Domain</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <section class="section section--light">
+      <div class="container">
+        <h2 class="section__title">Related Articles</h2>
+        <div class="posts-grid posts-grid--three">
+          <article class="post-card"><div class="post-card__content"><span class="post-card__category">Technical</span><h3 class="post-card__title"><a href="/works/posts/understanding-cms-systems.html">Understanding CMS Systems</a></h3></div></article>
+          <article class="post-card"><div class="post-card__content"><span class="post-card__category">SEO</span><h3 class="post-card__title"><a href="/works/posts/seo-strategies-2025.html">SEO Strategies for 2025</a></h3></div></article>
+          <article class="post-card"><div class="post-card__content"><span class="post-card__category">Content</span><h3 class="post-card__title"><a href="/works/posts/content-creation-strategies.html">Content Creation Strategies</a></h3></div></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand"><a href="/" class="logo logo--footer"><span class="logo__text">We Build Pillars</span></a></div>
+        <nav class="footer__nav"><h3 class="footer__heading">Navigate</h3><ul class="footer__list"><li><a href="/about.html">About</a></li><li><a href="/how-it-works.html">How It Works</a></li><li><a href="/request-domain.html">Request Domain</a></li></ul></nav>
+        <nav class="footer__nav"><h3 class="footer__heading">Pillars</h3><ul class="footer__list"><li><a href="/pillars/nonprofits.html">Nonprofits</a></li><li><a href="/pillars/artists.html">Artists</a></li><li><a href="/pillars/knowledge-builders.html">Knowledge Builders</a></li></ul></nav>
+        <nav class="footer__nav"><h3 class="footer__heading">Resources</h3><ul class="footer__list"><li><a href="/works.html">Works</a></li><li><a href="/faq.html">FAQ</a></li><li><a href="/contact.html">Contact</a></li></ul></nav>
+      </div>
+      <div class="footer__bottom"><p class="footer__copyright">&copy; <span id="current-year">2025</span> We Build Pillars.</p></div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/language.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="#7c3aed"/>
+
+  <!-- Pillar 1 (left) -->
+  <rect x="6" y="8" width="5" height="16" rx="1" fill="white"/>
+
+  <!-- Pillar 2 (center) -->
+  <rect x="13.5" y="8" width="5" height="16" rx="1" fill="white"/>
+
+  <!-- Pillar 3 (right) -->
+  <rect x="21" y="8" width="5" height="16" rx="1" fill="white"/>
+
+  <!-- Top connection bar -->
+  <rect x="6" y="6" width="20" height="3" rx="1" fill="white"/>
+
+  <!-- Bottom base -->
+  <rect x="6" y="23" width="20" height="3" rx="1" fill="white"/>
+</svg>
