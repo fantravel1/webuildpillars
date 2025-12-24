@@ -49,18 +49,57 @@
   <link rel="stylesheet" href="/assets/css/variables.css">
   <link rel="stylesheet" href="/assets/css/styles.css">
 
-  <!-- Schema.org Blog -->
+  <!-- Schema.org Blog with BlogPostings -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Blog",
     "name": "We Build Pillars Works & Insights",
-    "description": "Articles on digital equity, domain strategy, and empowering pillar communities",
+    "description": "Articles on digital equity, domain strategy, SEO, content creation, and empowering pillar communities",
     "url": "https://webuildpillars.org/works.html",
+    "inLanguage": "en",
     "publisher": {
       "@type": "Organization",
-      "name": "We Build Pillars"
-    }
+      "name": "We Build Pillars",
+      "url": "https://webuildpillars.org",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://webuildpillars.org/assets/images/icons/logo.svg"
+      }
+    },
+    "blogPost": [
+      {"@type": "BlogPosting", "headline": "The Myth of Minority", "url": "https://webuildpillars.org/works/posts/the-myth-of-minority.html", "description": "Why we reject deficit framing and embrace the power of pillar communities.", "datePublished": "2025-01-01"},
+      {"@type": "BlogPosting", "headline": "Who Gets to Create?", "url": "https://webuildpillars.org/works/posts/who-gets-to-create.html", "description": "Examining the gatekeeping structures that determine whose creativity gets supported.", "datePublished": "2025-01-01"},
+      {"@type": "BlogPosting", "headline": "Differences as Differentiation", "url": "https://webuildpillars.org/works/posts/differences-as-differentiation.html", "description": "How unique perspectives become competitive advantages in the digital landscape.", "datePublished": "2025-01-01"},
+      {"@type": "BlogPosting", "headline": "Understanding CMS Systems", "url": "https://webuildpillars.org/works/posts/understanding-cms-systems.html", "description": "A guide to content management systems for nonprofits and creators.", "datePublished": "2025-01-01"},
+      {"@type": "BlogPosting", "headline": "SEO Strategies for 2025", "url": "https://webuildpillars.org/works/posts/seo-strategies-2025.html", "description": "Future-proof search optimization strategies for mission-driven organizations.", "datePublished": "2025-01-01"},
+      {"@type": "BlogPosting", "headline": "Content Creation Strategies", "url": "https://webuildpillars.org/works/posts/content-creation-strategies.html", "description": "Building sustainable content practices that serve your mission.", "datePublished": "2025-01-01"},
+      {"@type": "BlogPosting", "headline": "Why No Social Media?", "url": "https://webuildpillars.org/works/posts/why-no-social-media.html", "description": "Our intentional choice to build community outside the platform economy.", "datePublished": "2025-01-01"},
+      {"@type": "BlogPosting", "headline": "Creating a Community", "url": "https://webuildpillars.org/works/posts/creating-a-community.html", "description": "Building meaningful connections without algorithmic amplification.", "datePublished": "2025-01-01"},
+      {"@type": "BlogPosting", "headline": "Best Practices for Databases", "url": "https://webuildpillars.org/works/posts/database-best-practices.html", "description": "Data management fundamentals for organizations building digital archives.", "datePublished": "2025-01-01"}
+    ]
+  }
+  </script>
+
+  <!-- Schema.org ItemList for AEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Digital Equity & Web Development Articles",
+    "description": "A collection of articles on digital equity, SEO, content strategy, and empowering pillar communities online",
+    "numberOfItems": 10,
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "url": "https://webuildpillars.org/works/posts/the-myth-of-minority.html", "name": "The Myth of Minority"},
+      {"@type": "ListItem", "position": 2, "url": "https://webuildpillars.org/works/posts/who-gets-to-create.html", "name": "Who Gets to Create?"},
+      {"@type": "ListItem", "position": 3, "url": "https://webuildpillars.org/works/posts/differences-as-differentiation.html", "name": "Differences as Differentiation"},
+      {"@type": "ListItem", "position": 4, "url": "https://webuildpillars.org/works/posts/understanding-cms-systems.html", "name": "Understanding CMS Systems"},
+      {"@type": "ListItem", "position": 5, "url": "https://webuildpillars.org/works/posts/seo-strategies-2025.html", "name": "SEO Strategies for 2025"},
+      {"@type": "ListItem", "position": 6, "url": "https://webuildpillars.org/works/posts/content-creation-strategies.html", "name": "Content Creation Strategies"},
+      {"@type": "ListItem", "position": 7, "url": "https://webuildpillars.org/works/posts/why-no-social-media.html", "name": "Why No Social Media?"},
+      {"@type": "ListItem", "position": 8, "url": "https://webuildpillars.org/works/posts/creating-a-community.html", "name": "Creating a Community"},
+      {"@type": "ListItem", "position": 9, "url": "https://webuildpillars.org/works/posts/database-best-practices.html", "name": "Best Practices for Databases"}
+    ]
   }
   </script>
 </head>
@@ -110,8 +149,8 @@
             <li class="breadcrumb__item" aria-current="page">Works</li>
           </ol>
         </nav>
-        <h1 id="page-title" class="page-header__title">Works & Insights</h1>
-        <p class="page-header__subtitle">Ideas, strategies, and perspectives on building digital equity.</p>
+        <h1 id="page-title" class="page-header__title animate-fade-in-up">Works & Insights</h1>
+        <p class="page-header__subtitle animate-fade-in-up delay-100">Ideas, strategies, and perspectives on building digital equity.</p>
       </div>
     </section>
 
@@ -119,7 +158,7 @@
     <section class="section" aria-labelledby="featured">
       <div class="container">
         <h2 id="featured" class="sr-only">Featured Article</h2>
-        <article class="post-featured" data-animate>
+        <article class="post-featured animate-fade-in-up hover-lift" data-animate>
           <div class="post-featured__content">
             <span class="post-featured__category">Featured</span>
             <h3 class="post-featured__title">
@@ -141,7 +180,7 @@
 
         <div class="posts-grid">
           <!-- Article 1 -->
-          <article class="post-card" data-animate>
+          <article class="post-card animate-fade-in-up delay-100 hover-lift" data-animate>
             <div class="post-card__content">
               <span class="post-card__category">Philosophy</span>
               <h3 class="post-card__title">
@@ -155,7 +194,7 @@
           </article>
 
           <!-- Article 2 -->
-          <article class="post-card" data-animate>
+          <article class="post-card animate-fade-in-up delay-200 hover-lift" data-animate>
             <div class="post-card__content">
               <span class="post-card__category">Equity</span>
               <h3 class="post-card__title">
@@ -169,7 +208,7 @@
           </article>
 
           <!-- Article 3 -->
-          <article class="post-card" data-animate>
+          <article class="post-card animate-fade-in-up hover-lift" data-animate>
             <div class="post-card__content">
               <span class="post-card__category">Strategy</span>
               <h3 class="post-card__title">
@@ -183,7 +222,7 @@
           </article>
 
           <!-- Article 4 -->
-          <article class="post-card" data-animate>
+          <article class="post-card animate-fade-in-up hover-lift" data-animate>
             <div class="post-card__content">
               <span class="post-card__category">Technical</span>
               <h3 class="post-card__title">
@@ -197,7 +236,7 @@
           </article>
 
           <!-- Article 5 -->
-          <article class="post-card" data-animate>
+          <article class="post-card animate-fade-in-up hover-lift" data-animate>
             <div class="post-card__content">
               <span class="post-card__category">SEO</span>
               <h3 class="post-card__title">
@@ -211,7 +250,7 @@
           </article>
 
           <!-- Article 6 -->
-          <article class="post-card" data-animate>
+          <article class="post-card animate-fade-in-up hover-lift" data-animate>
             <div class="post-card__content">
               <span class="post-card__category">SEO</span>
               <h3 class="post-card__title">
@@ -225,7 +264,7 @@
           </article>
 
           <!-- Article 7 -->
-          <article class="post-card" data-animate>
+          <article class="post-card animate-fade-in-up hover-lift" data-animate>
             <div class="post-card__content">
               <span class="post-card__category">Content</span>
               <h3 class="post-card__title">
@@ -239,7 +278,7 @@
           </article>
 
           <!-- Article 8 -->
-          <article class="post-card" data-animate>
+          <article class="post-card animate-fade-in-up hover-lift" data-animate>
             <div class="post-card__content">
               <span class="post-card__category">Philosophy</span>
               <h3 class="post-card__title">
@@ -253,7 +292,7 @@
           </article>
 
           <!-- Article 9 -->
-          <article class="post-card" data-animate>
+          <article class="post-card animate-fade-in-up hover-lift" data-animate>
             <div class="post-card__content">
               <span class="post-card__category">Community</span>
               <h3 class="post-card__title">
@@ -267,7 +306,7 @@
           </article>
 
           <!-- Article 10 -->
-          <article class="post-card" data-animate>
+          <article class="post-card animate-fade-in-up hover-lift" data-animate>
             <div class="post-card__content">
               <span class="post-card__category">Technical</span>
               <h3 class="post-card__title">
@@ -314,7 +353,6 @@
             <li><a href="/about.html">About Us</a></li>
             <li><a href="/how-it-works.html">How It Works</a></li>
             <li><a href="/request-domain.html">Request a Domain</a></li>
-            <li><a href="/success-stories.html">Success Stories</a></li>
           </ul>
         </nav>
         <nav class="footer__nav" aria-label="Pillar pages">

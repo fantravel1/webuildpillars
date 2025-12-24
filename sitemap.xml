@@ -124,17 +124,6 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Success Stories -->
-  <url>
-    <loc>https://webuildpillars.org/success-stories.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://webuildpillars.org/success-stories.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/historias-exito.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/temoignages.html"/>
-    <lastmod>2025-01-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
   <!-- Privacy Policy -->
   <url>
     <loc>https://webuildpillars.org/privacy.html</loc>
