@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="boxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6"/>
+      <stop offset="100%" style="stop-color:#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="ribbonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#d97706"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Sparkles -->
+  <circle cx="40" cy="50" r="3" fill="#fbbf24" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="3;4;3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="160" cy="40" r="2.5" fill="#fbbf24" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="170" cy="90" r="2" fill="#a78bfa" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.3;0.7" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="30" cy="120" r="2.5" fill="#a78bfa" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.2;0.5" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Gift Box -->
+  <g transform="translate(40, 50)">
+    <!-- Box body -->
+    <rect x="0" y="40" width="120" height="90" rx="8" fill="url(#boxGrad)">
+      <animate attributeName="transform" values="translate(0,0);translate(0,-3);translate(0,0)" dur="3s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Box lid -->
+    <rect x="-5" y="25" width="130" height="25" rx="6" fill="url(#boxGrad)">
+      <animate attributeName="transform" values="translate(0,0);translate(0,-5);translate(0,0)" dur="3s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Vertical ribbon -->
+    <rect x="50" y="25" width="20" height="105" fill="url(#ribbonGrad)">
+      <animate attributeName="transform" values="translate(0,0);translate(0,-4);translate(0,0)" dur="3s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Horizontal ribbon -->
+    <rect x="-5" y="70" width="130" height="20" fill="url(#ribbonGrad)">
+      <animate attributeName="transform" values="translate(0,0);translate(0,-3);translate(0,0)" dur="3s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Bow -->
+    <g transform="translate(60, 25)" filter="url(#glow)">
+      <ellipse cx="-20" cy="0" rx="18" ry="12" fill="url(#ribbonGrad)" transform="rotate(-30)">
+        <animate attributeName="transform" values="rotate(-30);rotate(-25);rotate(-30)" dur="3s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="20" cy="0" rx="18" ry="12" fill="url(#ribbonGrad)" transform="rotate(30)">
+        <animate attributeName="transform" values="rotate(30);rotate(25);rotate(30)" dur="3s" repeatCount="indefinite"/>
+      </ellipse>
+      <circle cx="0" cy="0" r="10" fill="url(#ribbonGrad)"/>
+    </g>
+
+    <!-- Domain text hint -->
+    <text x="60" y="100" text-anchor="middle" fill="#fff" font-family="monospace" font-size="12" opacity="0.9">
+      .com
+    </text>
+  </g>
+
+  <!-- Floating domain extensions -->
+  <g font-family="sans-serif" font-weight="600" font-size="10">
+    <text x="25" y="85" fill="#8b5cf6" opacity="0.6">.org
+      <animate attributeName="y" values="85;80;85" dur="4s" repeatCount="indefinite"/>
+    </text>
+    <text x="165" y="70" fill="#a78bfa" opacity="0.5">.net
+      <animate attributeName="y" values="70;65;70" dur="3.5s" repeatCount="indefinite"/>
+    </text>
+    <text x="155" y="130" fill="#7c3aed" opacity="0.5">.io
+      <animate attributeName="y" values="130;125;130" dur="4.5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>

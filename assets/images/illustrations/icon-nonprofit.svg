@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <defs>
+    <linearGradient id="nonprofitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#059669"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="40" cy="40" r="38" fill="url(#nonprofitGrad)" opacity="0.1"/>
+
+  <!-- Building/Institution icon -->
+  <g transform="translate(15, 18)">
+    <!-- Roof/Triangle -->
+    <path d="M25 5 L45 20 L5 20 Z" fill="url(#nonprofitGrad)" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;1;0.9" dur="3s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Pillars -->
+    <rect x="10" y="22" width="6" height="25" rx="1" fill="url(#nonprofitGrad)"/>
+    <rect x="22" y="22" width="6" height="25" rx="1" fill="url(#nonprofitGrad)"/>
+    <rect x="34" y="22" width="6" height="25" rx="1" fill="url(#nonprofitGrad)"/>
+
+    <!-- Base -->
+    <rect x="5" y="47" width="40" height="5" rx="1" fill="url(#nonprofitGrad)"/>
+
+    <!-- Heart in center -->
+    <path d="M25 30 C25 28 22 25 19 28 C16 31 25 38 25 38 C25 38 34 31 31 28 C28 25 25 28 25 30" fill="#fff" opacity="0.9">
+      <animate attributeName="transform" values="scale(1);scale(1.1);scale(1)" dur="1.5s" repeatCount="indefinite" type="scale"/>
+    </path>
+  </g>
+</svg>

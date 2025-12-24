@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <defs>
+    <linearGradient id="shape1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#6d28d9;stop-opacity:0.1"/>
+    </linearGradient>
+    <linearGradient id="shape2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Large circle -->
+  <circle cx="320" cy="80" r="60" fill="url(#shape1)">
+    <animate attributeName="cy" values="80;100;80" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="60;65;60" dur="8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Medium circle -->
+  <circle cx="80" cy="300" r="40" fill="url(#shape2)">
+    <animate attributeName="cy" values="300;280;300" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Floating squares -->
+  <rect x="50" y="80" width="30" height="30" rx="6" fill="url(#shape1)" transform="rotate(15 65 95)">
+    <animateTransform attributeName="transform" type="rotate" values="15 65 95;25 65 95;15 65 95" dur="10s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="300" y="280" width="25" height="25" rx="4" fill="url(#shape2)" transform="rotate(-10 312 292)">
+    <animateTransform attributeName="transform" type="rotate" values="-10 312 292;10 312 292;-10 312 292" dur="12s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Triangles -->
+  <polygon points="200,50 230,100 170,100" fill="url(#shape1)">
+    <animate attributeName="transform" type="translate" values="0,0;10,-10;0,0" dur="7s" repeatCount="indefinite"/>
+  </polygon>
+
+  <polygon points="350,200 380,250 320,250" fill="url(#shape2)">
+    <animate attributeName="transform" type="translate" values="0,0;-10,10;0,0" dur="9s" repeatCount="indefinite"/>
+  </polygon>
+
+  <!-- Small dots -->
+  <circle cx="150" cy="180" r="8" fill="#8b5cf6" opacity="0.2">
+    <animate attributeName="opacity" values="0.2;0.4;0.2" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="280" cy="150" r="6" fill="#a78bfa" opacity="0.15">
+    <animate attributeName="opacity" values="0.15;0.3;0.15" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="100" cy="200" r="5" fill="#c4b5fd" opacity="0.2">
+    <animate attributeName="opacity" values="0.2;0.35;0.2" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>
