@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGradW" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#18181b"/>
+      <stop offset="100%" style="stop-color:#27272a"/>
+    </linearGradient>
+    <linearGradient id="multiGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="33%" style="stop-color:#ec4899"/>
+      <stop offset="66%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgGradW)"/>
+
+  <!-- Article cards illustration -->
+  <g transform="translate(60, 130)">
+    <!-- Card 1 (back) -->
+    <rect x="40" y="40" width="280" height="180" rx="12" fill="#3f3f46" transform="rotate(-5)"/>
+
+    <!-- Card 2 (middle) -->
+    <rect x="20" y="20" width="280" height="180" rx="12" fill="#52525b" transform="rotate(3)"/>
+
+    <!-- Card 3 (front) -->
+    <rect x="0" y="0" width="280" height="180" rx="12" fill="#71717a"/>
+    <rect x="20" y="20" width="100" height="60" rx="6" fill="#7c3aed"/>
+    <rect x="20" y="100" width="240" height="12" rx="6" fill="#a1a1aa"/>
+    <rect x="20" y="125" width="200" height="10" rx="5" fill="#a1a1aa" opacity="0.7"/>
+    <rect x="20" y="145" width="160" height="10" rx="5" fill="#a1a1aa" opacity="0.5"/>
+
+    <!-- Floating icons representing content types -->
+    <g transform="translate(250, 200)">
+      <!-- Pen/Writing icon -->
+      <circle cx="40" cy="40" r="35" fill="#ec4899"/>
+      <path d="M25 55 L55 25 L60 30 L30 60 Z" fill="#fff"/>
+      <path d="M20 60 L25 55 L30 60 Z" fill="#fff"/>
+    </g>
+
+    <g transform="translate(180, 280)">
+      <!-- Lightbulb/Ideas icon -->
+      <circle cx="40" cy="40" r="32" fill="#f59e0b"/>
+      <ellipse cx="40" cy="35" rx="18" ry="22" fill="#fff"/>
+      <rect x="32" y="55" width="16" height="8" rx="2" fill="#fff"/>
+    </g>
+
+    <g transform="translate(80, 250)">
+      <!-- Chart/Growth icon -->
+      <circle cx="35" cy="35" r="30" fill="#10B981"/>
+      <path d="M20 50 L30 35 L40 42 L55 20" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Text content -->
+  <g transform="translate(450, 0)">
+    <text x="0" y="140" font-family="Georgia, serif" font-size="24" fill="#a78bfa">IDEAS &amp; PERSPECTIVES</text>
+
+    <text x="0" y="220" font-family="Georgia, serif" font-size="68" font-weight="bold" fill="#fff">Works &amp;</text>
+    <text x="0" y="300" font-family="Georgia, serif" font-size="68" font-weight="bold" fill="url(#multiGrad)">Insights</text>
+
+    <text x="0" y="360" font-family="Arial, sans-serif" font-size="22" fill="#a1a1aa">Strategies for building digital equity</text>
+
+    <!-- Topics tags -->
+    <g transform="translate(0, 400)">
+      <rect x="0" y="0" width="140" height="40" rx="20" fill="#7c3aed" opacity="0.3" stroke="#7c3aed"/>
+      <text x="70" y="27" font-family="Arial, sans-serif" font-size="16" fill="#c4b5fd" text-anchor="middle">Domain Strategy</text>
+
+      <rect x="155" y="0" width="90" height="40" rx="20" fill="#ec4899" opacity="0.3" stroke="#ec4899"/>
+      <text x="200" y="27" font-family="Arial, sans-serif" font-size="16" fill="#f9a8d4" text-anchor="middle">SEO</text>
+
+      <rect x="260" y="0" width="130" height="40" rx="20" fill="#10B981" opacity="0.3" stroke="#10B981"/>
+      <text x="325" y="27" font-family="Arial, sans-serif" font-size="16" fill="#6ee7b7" text-anchor="middle">Digital Equity</text>
+
+      <rect x="0" y="55" width="110" height="40" rx="20" fill="#f59e0b" opacity="0.3" stroke="#f59e0b"/>
+      <text x="55" y="82" font-family="Arial, sans-serif" font-size="16" fill="#fcd34d" text-anchor="middle">Content</text>
+
+      <rect x="125" y="55" width="130" height="40" rx="20" fill="#3b82f6" opacity="0.3" stroke="#3b82f6"/>
+      <text x="190" y="82" font-family="Arial, sans-serif" font-size="16" fill="#93c5fd" text-anchor="middle">Community</text>
+    </g>
+  </g>
+
+  <!-- Bottom accent -->
+  <rect x="0" y="615" width="1200" height="15" fill="url(#multiGrad)"/>
+</svg>

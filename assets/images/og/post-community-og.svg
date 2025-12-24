@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgP9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgP9)"/>
+
+  <!-- Connected community network -->
+  <g transform="translate(100, 130)">
+    <!-- Central hub -->
+    <circle cx="150" cy="150" r="40" fill="#7c3aed"/>
+    <circle cx="150" cy="130" r="18" fill="#fff" opacity="0.9"/>
+    <ellipse cx="150" cy="160" rx="22" ry="16" fill="#fff" opacity="0.9"/>
+
+    <!-- Connected people -->
+    <circle cx="60" cy="80" r="30" fill="#10B981"/>
+    <circle cx="60" cy="65" r="12" fill="#fff" opacity="0.9"/>
+    <ellipse cx="60" cy="88" rx="15" ry="10" fill="#fff" opacity="0.9"/>
+
+    <circle cx="240" cy="80" r="30" fill="#ec4899"/>
+    <circle cx="240" cy="65" r="12" fill="#fff" opacity="0.9"/>
+    <ellipse cx="240" cy="88" rx="15" ry="10" fill="#fff" opacity="0.9"/>
+
+    <circle cx="60" cy="220" r="30" fill="#f59e0b"/>
+    <circle cx="60" cy="205" r="12" fill="#fff" opacity="0.9"/>
+    <ellipse cx="60" cy="228" rx="15" ry="10" fill="#fff" opacity="0.9"/>
+
+    <circle cx="240" cy="220" r="30" fill="#3b82f6"/>
+    <circle cx="240" cy="205" r="12" fill="#fff" opacity="0.9"/>
+    <ellipse cx="240" cy="228" rx="15" ry="10" fill="#fff" opacity="0.9"/>
+
+    <!-- Connection lines -->
+    <line x1="90" y1="95" x2="120" y2="125" stroke="#fff" stroke-width="3" opacity="0.5"/>
+    <line x1="210" y1="95" x2="180" y2="125" stroke="#fff" stroke-width="3" opacity="0.5"/>
+    <line x1="90" y1="205" x2="120" y2="175" stroke="#fff" stroke-width="3" opacity="0.5"/>
+    <line x1="210" y1="205" x2="180" y2="175" stroke="#fff" stroke-width="3" opacity="0.5"/>
+
+    <!-- Hearts between connections -->
+    <text x="100" y="105" font-size="20" fill="#ec4899">♥</text>
+    <text x="190" y="105" font-size="20" fill="#ec4899">♥</text>
+  </g>
+
+  <rect x="500" y="100" width="130" height="35" rx="17" fill="#7c3aed"/>
+  <text x="565" y="124" font-family="Arial, sans-serif" font-size="14" fill="#fff" text-anchor="middle">COMMUNITY</text>
+
+  <text x="500" y="200" font-family="Georgia, serif" font-size="48" font-weight="bold" fill="#fff">Creating a</text>
+  <text x="500" y="270" font-family="Georgia, serif" font-size="48" font-weight="bold" fill="#7c3aed">Community</text>
+
+  <text x="500" y="340" font-family="Arial, sans-serif" font-size="20" fill="#94a3b8">Building meaningful connections</text>
+  <text x="500" y="370" font-family="Arial, sans-serif" font-size="20" fill="#94a3b8">without algorithmic amplification</text>
+
+  <rect x="500" y="420" width="600" height="1" fill="#374151"/>
+
+  <text x="500" y="480" font-family="Georgia, serif" font-size="24" fill="#7c3aed">We Build Pillars</text>
+  <text x="500" y="510" font-family="Arial, sans-serif" font-size="16" fill="#64748b">Works &amp; Insights</text>
+
+  <rect x="0" y="615" width="1200" height="15" fill="#7c3aed"/>
+</svg>

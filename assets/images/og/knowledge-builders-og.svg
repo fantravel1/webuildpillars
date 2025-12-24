@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGradKb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0c4a6e"/>
+      <stop offset="100%" style="stop-color:#164e63"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0d9488"/>
+      <stop offset="100%" style="stop-color:#5eead4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgGradKb)"/>
+
+  <!-- Decorative elements -->
+  <circle cx="150" cy="500" r="180" fill="#0d9488" opacity="0.1"/>
+  <circle cx="1100" cy="150" r="200" fill="#5eead4" opacity="0.1"/>
+
+  <!-- Book and lightbulb illustration -->
+  <g transform="translate(80, 120)">
+    <!-- Open book -->
+    <path d="M50 200 Q150 180 150 380 L50 400 Z" fill="#f5f5f4"/>
+    <path d="M250 200 Q150 180 150 380 L250 400 Z" fill="#e5e5e5"/>
+    <path d="M150 180 L150 380" stroke="#0d9488" stroke-width="3"/>
+
+    <!-- Book pages (left) -->
+    <line x1="70" y1="230" x2="140" y2="220" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="70" y1="260" x2="140" y2="250" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="70" y1="290" x2="140" y2="280" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="70" y1="320" x2="140" y2="310" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="70" y1="350" x2="140" y2="340" stroke="#94a3b8" stroke-width="2"/>
+
+    <!-- Book pages (right) -->
+    <line x1="160" y1="220" x2="230" y2="230" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="160" y1="250" x2="230" y2="260" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="160" y1="280" x2="230" y2="290" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="160" y1="310" x2="230" y2="320" stroke="#94a3b8" stroke-width="2"/>
+    <line x1="160" y1="340" x2="230" y2="350" stroke="#94a3b8" stroke-width="2"/>
+
+    <!-- Lightbulb above book -->
+    <g transform="translate(100, 20)">
+      <ellipse cx="50" cy="80" rx="45" ry="50" fill="#fbbf24" opacity="0.9"/>
+      <rect x="35" y="125" width="30" height="15" fill="#94a3b8"/>
+      <rect x="38" y="140" width="24" height="8" rx="4" fill="#94a3b8"/>
+      <!-- Glow rays -->
+      <line x1="50" y1="20" x2="50" y2="-10" stroke="#fbbf24" stroke-width="3" opacity="0.7"/>
+      <line x1="85" y1="40" x2="110" y2="20" stroke="#fbbf24" stroke-width="3" opacity="0.7"/>
+      <line x1="15" y1="40" x2="-10" y2="20" stroke="#fbbf24" stroke-width="3" opacity="0.7"/>
+      <line x1="100" y1="80" x2="125" y2="80" stroke="#fbbf24" stroke-width="3" opacity="0.7"/>
+      <line x1="0" y1="80" x2="-25" y2="80" stroke="#fbbf24" stroke-width="3" opacity="0.7"/>
+    </g>
+
+    <!-- Graduation cap floating -->
+    <g transform="translate(260, 100)">
+      <polygon points="50,30 0,50 50,70 100,50" fill="#0d9488"/>
+      <rect x="40" y="30" width="20" height="40" fill="#0d9488"/>
+      <line x1="85" y1="50" x2="85" y2="90" stroke="#fbbf24" stroke-width="3"/>
+      <circle cx="85" cy="95" r="8" fill="#fbbf24"/>
+    </g>
+  </g>
+
+  <!-- Text content -->
+  <g transform="translate(450, 0)">
+    <text x="0" y="140" font-family="Georgia, serif" font-size="24" fill="#5eead4">PILLAR COMMUNITY</text>
+
+    <text x="0" y="210" font-family="Georgia, serif" font-size="60" font-weight="bold" fill="#fff">Knowledge</text>
+    <text x="0" y="280" font-family="Georgia, serif" font-size="60" font-weight="bold" fill="url(#tealGrad)">Champions</text>
+
+    <text x="0" y="340" font-family="Arial, sans-serif" font-size="22" fill="#a7f3d0">Educators, Researchers &amp; Archivists</text>
+
+    <!-- Key benefits -->
+    <g transform="translate(0, 380)">
+      <circle cx="15" cy="15" r="10" fill="#0d9488"/>
+      <text x="35" y="21" font-family="Arial, sans-serif" font-size="18" fill="#ccfbf1">Establish authority with premium domains</text>
+
+      <circle cx="15" cy="55" r="10" fill="#0d9488"/>
+      <text x="35" y="61" font-family="Arial, sans-serif" font-size="18" fill="#ccfbf1">Preserve cultural wisdom</text>
+
+      <circle cx="15" cy="95" r="10" fill="#0d9488"/>
+      <text x="35" y="101" font-family="Arial, sans-serif" font-size="18" fill="#ccfbf1">Expand human knowledge</text>
+    </g>
+  </g>
+
+  <!-- Floating domain example -->
+  <rect x="850" y="450" width="280" height="60" rx="30" fill="url(#tealGrad)" opacity="0.9"/>
+  <text x="990" y="490" font-family="monospace" font-size="24" fill="#0c4a6e" text-anchor="middle">Scholar.edu</text>
+
+  <!-- Bottom accent -->
+  <rect x="0" y="615" width="1200" height="15" fill="url(#tealGrad)"/>
+</svg>
