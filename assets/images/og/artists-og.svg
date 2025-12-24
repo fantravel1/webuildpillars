@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGradArt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#581c87"/>
+      <stop offset="100%" style="stop-color:#7c2d12"/>
+    </linearGradient>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ec4899"/>
+      <stop offset="50%" style="stop-color:#f472b6"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgGradArt)"/>
+
+  <!-- Abstract art splashes -->
+  <circle cx="200" cy="300" r="150" fill="#ec4899" opacity="0.2"/>
+  <circle cx="280" cy="250" r="100" fill="#f59e0b" opacity="0.2"/>
+  <circle cx="150" cy="400" r="80" fill="#7c3aed" opacity="0.2"/>
+
+  <!-- Artistic palette and brush illustration -->
+  <g transform="translate(80, 150)">
+    <!-- Palette -->
+    <ellipse cx="150" cy="180" rx="140" ry="100" fill="#f5f5f4"/>
+    <ellipse cx="150" cy="180" rx="120" ry="80" fill="#fafafa" stroke="#e5e5e5" stroke-width="2"/>
+
+    <!-- Paint blobs on palette -->
+    <circle cx="80" cy="140" r="25" fill="#ef4444"/>
+    <circle cx="130" cy="120" r="22" fill="#f59e0b"/>
+    <circle cx="185" cy="125" r="24" fill="#22c55e"/>
+    <circle cx="230" cy="150" r="20" fill="#3b82f6"/>
+    <circle cx="220" cy="200" r="23" fill="#8b5cf6"/>
+    <circle cx="170" cy="220" r="21" fill="#ec4899"/>
+
+    <!-- Thumb hole -->
+    <ellipse cx="100" cy="200" rx="25" ry="20" fill="url(#bgGradArt)"/>
+
+    <!-- Paintbrush -->
+    <g transform="translate(200, 80) rotate(45)">
+      <rect x="0" y="0" width="15" height="120" rx="2" fill="#92400e"/>
+      <rect x="-5" y="120" width="25" height="60" rx="3" fill="#a8a29e"/>
+      <ellipse cx="7" cy="180" rx="12" ry="8" fill="#ec4899"/>
+    </g>
+
+    <!-- Music notes floating -->
+    <text x="50" y="80" font-size="40" fill="#ec4899" opacity="0.8">♪</text>
+    <text x="280" y="100" font-size="50" fill="#f59e0b" opacity="0.8">♫</text>
+    <text x="30" y="320" font-size="35" fill="#7c3aed" opacity="0.8">♪</text>
+  </g>
+
+  <!-- Text content -->
+  <g transform="translate(450, 0)">
+    <text x="0" y="140" font-family="Georgia, serif" font-size="24" fill="#f9a8d4">PILLAR COMMUNITY</text>
+
+    <text x="0" y="210" font-family="Georgia, serif" font-size="60" font-weight="bold" fill="#fff">Creative</text>
+    <text x="0" y="280" font-family="Georgia, serif" font-size="60" font-weight="bold" fill="url(#pinkGrad)">Visionaries</text>
+
+    <text x="0" y="340" font-family="Arial, sans-serif" font-size="22" fill="#fce7f3">Artists, Musicians, Writers &amp; Creators</text>
+
+    <!-- Key stats/benefits -->
+    <g transform="translate(0, 380)">
+      <circle cx="15" cy="15" r="10" fill="#ec4899"/>
+      <text x="35" y="21" font-family="Arial, sans-serif" font-size="18" fill="#fce7f3">Close the 35% creator pay gap</text>
+
+      <circle cx="15" cy="55" r="10" fill="#ec4899"/>
+      <text x="35" y="61" font-family="Arial, sans-serif" font-size="18" fill="#fce7f3">Own your name as a domain</text>
+
+      <circle cx="15" cy="95" r="10" fill="#ec4899"/>
+      <text x="35" y="101" font-family="Arial, sans-serif" font-size="18" fill="#fce7f3">Professional digital presence</text>
+    </g>
+  </g>
+
+  <!-- Floating domain example -->
+  <rect x="850" y="450" width="280" height="60" rx="30" fill="url(#pinkGrad)" opacity="0.9"/>
+  <text x="990" y="490" font-family="monospace" font-size="24" fill="#1a1a2e" text-anchor="middle">YourName.art</text>
+
+  <!-- Bottom accent -->
+  <rect x="0" y="615" width="1200" height="15" fill="url(#pinkGrad)"/>
+</svg>

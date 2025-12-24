@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <!-- Gradient backgrounds -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="50%" style="stop-color:#a78bfa"/>
+      <stop offset="100%" style="stop-color:#ec4899"/>
+    </linearGradient>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#fbbf24"/>
+    </linearGradient>
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="200" fill="#7c3aed" opacity="0.1"/>
+  <circle cx="1100" cy="530" r="250" fill="#ec4899" opacity="0.1"/>
+  <circle cx="600" cy="315" r="400" fill="#0d9488" opacity="0.05"/>
+
+  <!-- Three pillars illustration -->
+  <g transform="translate(80, 180)">
+    <!-- Pillar 1 - Nonprofit (left) -->
+    <rect x="0" y="100" width="80" height="280" rx="8" fill="#10B981" opacity="0.9"/>
+    <rect x="10" y="110" width="60" height="20" rx="4" fill="#fff" opacity="0.3"/>
+    <circle cx="40" cy="170" r="25" fill="#fff" opacity="0.2"/>
+    <path d="M30 165 L40 155 L50 165 L50 185 L30 185 Z" fill="#fff" opacity="0.4"/>
+
+    <!-- Pillar 2 - Artist (center, taller) -->
+    <rect x="100" y="50" width="80" height="330" rx="8" fill="#7c3aed" opacity="0.9"/>
+    <rect x="110" y="60" width="60" height="20" rx="4" fill="#fff" opacity="0.3"/>
+    <circle cx="140" cy="130" r="30" fill="#fff" opacity="0.2"/>
+    <ellipse cx="140" cy="130" rx="20" ry="15" fill="#fff" opacity="0.3"/>
+
+    <!-- Pillar 3 - Knowledge (right) -->
+    <rect x="200" y="120" width="80" height="260" rx="8" fill="#3B82F6" opacity="0.9"/>
+    <rect x="210" y="130" width="60" height="20" rx="4" fill="#fff" opacity="0.3"/>
+    <rect x="220" y="180" width="40" height="50" rx="4" fill="#fff" opacity="0.2"/>
+    <path d="M225 205 L260 205" stroke="#fff" stroke-width="2" opacity="0.4"/>
+    <path d="M225 215" L260 215" stroke="#fff" stroke-width="2" opacity="0.4"/>
+  </g>
+
+  <!-- Floating domain bubbles -->
+  <g filter="url(#glow)">
+    <rect x="320" y="120" width="180" height="50" rx="25" fill="url(#accentGradient)" opacity="0.9"/>
+    <text x="410" y="152" font-family="monospace" font-size="20" fill="#fff" text-anchor="middle">YourCause.org</text>
+
+    <rect x="340" y="200" width="160" height="45" rx="22" fill="url(#goldGradient)" opacity="0.9"/>
+    <text x="420" y="230" font-family="monospace" font-size="18" fill="#1a1a2e" text-anchor="middle">Artist.com</text>
+
+    <rect x="300" y="280" width="200" height="50" rx="25" fill="#0d9488" opacity="0.9"/>
+    <text x="400" y="312" font-family="monospace" font-size="20" fill="#fff" text-anchor="middle">Knowledge.edu</text>
+  </g>
+
+  <!-- Main text content -->
+  <g transform="translate(550, 0)">
+    <text x="0" y="180" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="#fff">We Build</text>
+    <text x="0" y="260" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="url(#accentGradient)">Pillars</text>
+
+    <text x="0" y="320" font-family="Arial, sans-serif" font-size="24" fill="#a78bfa">Premium Domain Philanthropy</text>
+
+    <text x="0" y="380" font-family="Arial, sans-serif" font-size="20" fill="#94a3b8">Gifting $260M+ in domains to</text>
+    <text x="0" y="410" font-family="Arial, sans-serif" font-size="20" fill="#94a3b8">nonprofits, artists &amp; knowledge builders</text>
+
+    <!-- CTA style badge -->
+    <rect x="0" y="450" width="280" height="55" rx="27" fill="url(#accentGradient)"/>
+    <text x="140" y="485" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#fff" text-anchor="middle">Request Your Domain</text>
+  </g>
+
+  <!-- Decorative stars/sparkles -->
+  <g fill="#fbbf24" opacity="0.8">
+    <polygon points="150,80 153,90 163,90 155,96 158,106 150,100 142,106 145,96 137,90 147,90"/>
+    <polygon points="520,60 522,67 529,67 523,71 525,78 520,74 515,78 517,71 511,67 518,67" transform="scale(0.8)"/>
+    <polygon points="1050,150 1053,160 1063,160 1055,166 1058,176 1050,170 1042,176 1045,166 1037,160 1047,160"/>
+    <polygon points="900,400 902,407 909,407 903,411 905,418 900,414 895,418 897,411 891,407 898,407"/>
+  </g>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="615" width="1200" height="15" fill="url(#accentGradient)"/>
+</svg>

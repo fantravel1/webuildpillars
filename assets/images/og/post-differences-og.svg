@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgP3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="rainbowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444"/>
+      <stop offset="20%" style="stop-color:#f59e0b"/>
+      <stop offset="40%" style="stop-color:#10B981"/>
+      <stop offset="60%" style="stop-color:#3b82f6"/>
+      <stop offset="80%" style="stop-color:#8b5cf6"/>
+      <stop offset="100%" style="stop-color:#ec4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgP3)"/>
+
+  <!-- Diverse geometric shapes coming together -->
+  <g transform="translate(100, 140)">
+    <polygon points="80,50 130,130 30,130" fill="#ef4444" opacity="0.9"/>
+    <circle cx="200" cy="100" r="50" fill="#3b82f6" opacity="0.9"/>
+    <rect x="130" y="150" width="80" height="80" rx="10" fill="#10B981" opacity="0.9"/>
+    <polygon points="280,80 320,140 280,200 240,140" fill="#8b5cf6" opacity="0.9"/>
+    <ellipse cx="100" cy="220" rx="60" ry="40" fill="#f59e0b" opacity="0.9"/>
+    <polygon points="220,260 270,260 295,310 195,310" fill="#ec4899" opacity="0.9"/>
+    <!-- Connection lines -->
+    <line x1="80" y1="130" x2="150" y2="150" stroke="#fff" stroke-width="2" opacity="0.4"/>
+    <line x1="200" y1="150" x2="200" y2="150" stroke="#fff" stroke-width="2" opacity="0.4"/>
+    <line x1="280" y1="200" x2="245" y2="260" stroke="#fff" stroke-width="2" opacity="0.4"/>
+  </g>
+
+  <rect x="500" y="100" width="110" height="35" rx="17" fill="#8b5cf6"/>
+  <text x="555" y="124" font-family="Arial, sans-serif" font-size="14" fill="#fff" text-anchor="middle">STRATEGY</text>
+
+  <text x="500" y="200" font-family="Georgia, serif" font-size="48" font-weight="bold" fill="#fff">Differences as</text>
+  <text x="500" y="270" font-family="Georgia, serif" font-size="48" font-weight="bold" fill="url(#rainbowGrad)">Differentiation</text>
+
+  <text x="500" y="340" font-family="Arial, sans-serif" font-size="20" fill="#94a3b8">How unique perspectives become</text>
+  <text x="500" y="370" font-family="Arial, sans-serif" font-size="20" fill="#94a3b8">competitive advantages</text>
+
+  <rect x="500" y="420" width="600" height="1" fill="#374151"/>
+
+  <text x="500" y="480" font-family="Georgia, serif" font-size="24" fill="#8b5cf6">We Build Pillars</text>
+  <text x="500" y="510" font-family="Arial, sans-serif" font-size="16" fill="#64748b">Works &amp; Insights</text>
+
+  <rect x="0" y="615" width="1200" height="15" fill="url(#rainbowGrad)"/>
+</svg>

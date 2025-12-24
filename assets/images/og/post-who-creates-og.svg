@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgP2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgP2)"/>
+
+  <!-- Locked door with light coming through -->
+  <g transform="translate(100, 120)">
+    <rect x="50" y="50" width="200" height="300" rx="10" fill="#374151"/>
+    <rect x="70" y="70" width="160" height="260" fill="#1f2937"/>
+    <!-- Light rays coming through -->
+    <polygon points="150,100 200,200 100,200" fill="#fbbf24" opacity="0.5"/>
+    <polygon points="150,100 220,280 80,280" fill="#fbbf24" opacity="0.3"/>
+    <!-- Key breaking through -->
+    <g transform="translate(200, 180)">
+      <circle cx="30" cy="30" r="25" fill="#10B981"/>
+      <rect x="55" y="22" width="60" height="16" rx="3" fill="#10B981"/>
+      <rect x="85" y="16" width="8" height="28" rx="2" fill="#10B981"/>
+      <rect x="100" y="20" width="8" height="20" rx="2" fill="#10B981"/>
+    </g>
+  </g>
+
+  <rect x="500" y="100" width="90" height="35" rx="17" fill="#10B981"/>
+  <text x="545" y="124" font-family="Arial, sans-serif" font-size="14" fill="#fff" text-anchor="middle">EQUITY</text>
+
+  <text x="500" y="200" font-family="Georgia, serif" font-size="56" font-weight="bold" fill="#fff">Who Gets</text>
+  <text x="500" y="270" font-family="Georgia, serif" font-size="56" font-weight="bold" fill="#10B981">to Create?</text>
+
+  <text x="500" y="340" font-family="Arial, sans-serif" font-size="20" fill="#94a3b8">Examining gatekeeping structures in</text>
+  <text x="500" y="370" font-family="Arial, sans-serif" font-size="20" fill="#94a3b8">the creative economy</text>
+
+  <rect x="500" y="420" width="600" height="1" fill="#374151"/>
+
+  <text x="500" y="480" font-family="Georgia, serif" font-size="24" fill="#10B981">We Build Pillars</text>
+  <text x="500" y="510" font-family="Arial, sans-serif" font-size="16" fill="#64748b">Works &amp; Insights</text>
+
+  <rect x="0" y="615" width="1200" height="15" fill="#10B981"/>
+</svg>

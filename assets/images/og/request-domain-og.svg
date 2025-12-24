@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGradReq" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#5b21b6"/>
+    </linearGradient>
+    <linearGradient id="goldGradReq" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#fbbf24"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgGradReq)"/>
+
+  <!-- Decorative sparkles -->
+  <g fill="#fbbf24">
+    <polygon points="100,100 105,115 120,115 108,125 113,140 100,130 87,140 92,125 80,115 95,115"/>
+    <polygon points="200,200 203,210 213,210 205,216 208,226 200,220 192,226 195,216 187,210 197,210" opacity="0.7"/>
+    <polygon points="150,400 153,410 163,410 155,416 158,426 150,420 142,426 145,416 137,410 147,410" opacity="0.8"/>
+    <polygon points="1100,150 1105,165 1120,165 1108,175 1113,190 1100,180 1087,190 1092,175 1080,165 1095,165"/>
+    <polygon points="1050,450 1053,460 1063,460 1055,466 1058,476 1050,470 1042,476 1045,466 1037,460 1047,460" opacity="0.7"/>
+  </g>
+
+  <!-- Gift box illustration -->
+  <g transform="translate(100, 150)">
+    <!-- Box base -->
+    <rect x="50" y="150" width="200" height="150" rx="10" fill="#fff" opacity="0.95"/>
+    <rect x="50" y="150" width="200" height="150" rx="10" fill="url(#goldGradReq)" opacity="0.3"/>
+
+    <!-- Box lid -->
+    <rect x="40" y="120" width="220" height="40" rx="8" fill="#f59e0b"/>
+
+    <!-- Ribbon vertical -->
+    <rect x="135" y="120" width="30" height="180" fill="#dc2626"/>
+
+    <!-- Ribbon horizontal -->
+    <rect x="40" y="180" width="220" height="30" fill="#dc2626"/>
+
+    <!-- Bow -->
+    <ellipse cx="150" cy="100" rx="50" ry="30" fill="#dc2626"/>
+    <ellipse cx="115" cy="85" rx="25" ry="20" fill="#ef4444"/>
+    <ellipse cx="185" cy="85" rx="25" ry="20" fill="#ef4444"/>
+    <circle cx="150" cy="100" r="15" fill="#dc2626"/>
+
+    <!-- Domain labels floating out -->
+    <g transform="translate(180, 50)">
+      <rect x="0" y="0" width="160" height="35" rx="17" fill="#fff" opacity="0.95"/>
+      <text x="80" y="24" font-family="monospace" font-size="14" fill="#7c3aed" text-anchor="middle">.org</text>
+    </g>
+    <g transform="translate(220, 100)">
+      <rect x="0" y="0" width="160" height="35" rx="17" fill="#fff" opacity="0.95"/>
+      <text x="80" y="24" font-family="monospace" font-size="14" fill="#7c3aed" text-anchor="middle">.com</text>
+    </g>
+    <g transform="translate(200, 150)">
+      <rect x="0" y="0" width="160" height="35" rx="17" fill="#fff" opacity="0.95"/>
+      <text x="80" y="24" font-family="monospace" font-size="14" fill="#7c3aed" text-anchor="middle">.art</text>
+    </g>
+  </g>
+
+  <!-- Text content -->
+  <g transform="translate(500, 0)">
+    <text x="0" y="140" font-family="Georgia, serif" font-size="24" fill="#fbbf24">START YOUR JOURNEY</text>
+
+    <text x="0" y="220" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#fff">Request a</text>
+    <text x="0" y="300" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="url(#goldGradReq)">Premium Domain</text>
+
+    <text x="0" y="360" font-family="Arial, sans-serif" font-size="22" fill="#e0e7ff">Your digital identity awaits</text>
+
+    <!-- CTA-style element -->
+    <rect x="0" y="400" width="500" height="70" rx="35" fill="#fff"/>
+    <text x="250" y="445" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#7c3aed" text-anchor="middle">100% Free for Pillar Communities</text>
+
+    <text x="0" y="520" font-family="Arial, sans-serif" font-size="18" fill="#c4b5fd">Nonprofits · Artists · Knowledge Builders</text>
+  </g>
+
+  <!-- Bottom accent -->
+  <rect x="0" y="615" width="1200" height="15" fill="url(#goldGradReq)"/>
+</svg>

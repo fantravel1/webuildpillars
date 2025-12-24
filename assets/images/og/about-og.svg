@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#a78bfa"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Abstract community circles representing diverse people -->
+  <g transform="translate(100, 150)">
+    <!-- Large interconnected circles representing community -->
+    <circle cx="120" cy="150" r="80" fill="#7c3aed" opacity="0.3"/>
+    <circle cx="200" cy="100" r="60" fill="#ec4899" opacity="0.3"/>
+    <circle cx="250" cy="180" r="70" fill="#10B981" opacity="0.3"/>
+    <circle cx="150" cy="250" r="65" fill="#3B82F6" opacity="0.3"/>
+    <circle cx="80" cy="220" r="50" fill="#f59e0b" opacity="0.3"/>
+
+    <!-- People silhouettes in circles -->
+    <circle cx="120" cy="150" r="35" fill="#7c3aed"/>
+    <circle cx="120" cy="130" r="15" fill="#fff" opacity="0.9"/>
+    <ellipse cx="120" cy="165" rx="20" ry="15" fill="#fff" opacity="0.9"/>
+
+    <circle cx="200" cy="100" r="28" fill="#ec4899"/>
+    <circle cx="200" cy="85" r="12" fill="#fff" opacity="0.9"/>
+    <ellipse cx="200" cy="112" rx="16" ry="12" fill="#fff" opacity="0.9"/>
+
+    <circle cx="250" cy="180" r="32" fill="#10B981"/>
+    <circle cx="250" cy="162" r="14" fill="#fff" opacity="0.9"/>
+    <ellipse cx="250" cy="195" rx="18" ry="14" fill="#fff" opacity="0.9"/>
+
+    <circle cx="150" cy="250" r="30" fill="#3B82F6"/>
+    <circle cx="150" cy="233" r="13" fill="#fff" opacity="0.9"/>
+    <ellipse cx="150" cy="264" rx="17" ry="13" fill="#fff" opacity="0.9"/>
+
+    <circle cx="80" cy="220" r="25" fill="#f59e0b"/>
+    <circle cx="80" cy="205" r="11" fill="#fff" opacity="0.9"/>
+    <ellipse cx="80" cy="232" rx="14" ry="11" fill="#fff" opacity="0.9"/>
+
+    <!-- Connecting lines -->
+    <line x1="120" y1="150" x2="200" y2="100" stroke="#fff" stroke-width="2" opacity="0.3"/>
+    <line x1="200" y1="100" x2="250" y2="180" stroke="#fff" stroke-width="2" opacity="0.3"/>
+    <line x1="250" y1="180" x2="150" y2="250" stroke="#fff" stroke-width="2" opacity="0.3"/>
+    <line x1="150" y1="250" x2="80" y2="220" stroke="#fff" stroke-width="2" opacity="0.3"/>
+    <line x1="80" y1="220" x2="120" y2="150" stroke="#fff" stroke-width="2" opacity="0.3"/>
+  </g>
+
+  <!-- Text content -->
+  <g transform="translate(480, 0)">
+    <text x="0" y="150" font-family="Georgia, serif" font-size="28" fill="#a78bfa">WHO WE ARE</text>
+
+    <text x="0" y="220" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="#fff">About</text>
+    <text x="0" y="290" font-family="Georgia, serif" font-size="64" font-weight="bold" fill="url(#purpleGrad)">We Build Pillars</text>
+
+    <text x="0" y="360" font-family="Arial, sans-serif" font-size="22" fill="#94a3b8">The social impact arm of</text>
+    <text x="0" y="390" font-family="Arial, sans-serif" font-size="22" fill="#94a3b8">Pillar Media &amp; Entertainment</text>
+
+    <!-- Mission statement box -->
+    <rect x="0" y="430" width="600" height="80" rx="12" fill="#7c3aed" opacity="0.2" stroke="#7c3aed" stroke-width="2"/>
+    <text x="300" y="465" font-family="Georgia, serif" font-size="20" font-style="italic" fill="#e0e7ff" text-anchor="middle">"Building digital equity for the</text>
+    <text x="300" y="495" font-family="Georgia, serif" font-size="20" font-style="italic" fill="#e0e7ff" text-anchor="middle">communities that build our world"</text>
+  </g>
+
+  <!-- Decorative elements -->
+  <circle cx="1100" cy="100" r="150" fill="#7c3aed" opacity="0.1"/>
+  <circle cx="1150" cy="550" r="120" fill="#ec4899" opacity="0.1"/>
+
+  <!-- Bottom accent -->
+  <rect x="0" y="615" width="1200" height="15" fill="url(#purpleGrad)"/>
+</svg>

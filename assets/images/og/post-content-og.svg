@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgP7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgP7)"/>
+
+  <!-- Content creation tools -->
+  <g transform="translate(80, 120)">
+    <!-- Pencil/Pen -->
+    <g transform="translate(50, 50) rotate(-30)">
+      <rect x="0" y="0" width="30" height="180" rx="4" fill="#f59e0b"/>
+      <polygon points="0,180 15,220 30,180" fill="#1a1a2e"/>
+      <rect x="0" y="0" width="30" height="30" fill="#ec4899"/>
+    </g>
+
+    <!-- Document pages -->
+    <rect x="150" y="80" width="160" height="200" rx="8" fill="#fff" opacity="0.9"/>
+    <rect x="165" y="100" width="100" height="12" rx="4" fill="#374151"/>
+    <rect x="165" y="125" width="130" height="8" rx="3" fill="#9ca3af"/>
+    <rect x="165" y="140" width="120" height="8" rx="3" fill="#9ca3af"/>
+    <rect x="165" y="155" width="110" height="8" rx="3" fill="#9ca3af"/>
+    <rect x="165" y="180" width="100" height="12" rx="4" fill="#374151"/>
+    <rect x="165" y="205" width="130" height="8" rx="3" fill="#9ca3af"/>
+    <rect x="165" y="220" width="115" height="8" rx="3" fill="#9ca3af"/>
+    <rect x="165" y="245" width="80" height="25" rx="6" fill="#f59e0b"/>
+
+    <!-- Sparkle -->
+    <polygon points="280,60 285,75 300,75 288,85 292,100 280,90 268,100 272,85 260,75 275,75" fill="#fbbf24"/>
+  </g>
+
+  <rect x="500" y="100" width="110" height="35" rx="17" fill="#f59e0b"/>
+  <text x="555" y="124" font-family="Arial, sans-serif" font-size="14" fill="#1a1a2e" text-anchor="middle">CONTENT</text>
+
+  <text x="500" y="200" font-family="Georgia, serif" font-size="44" font-weight="bold" fill="#fff">Content Creation</text>
+  <text x="500" y="270" font-family="Georgia, serif" font-size="44" font-weight="bold" fill="#f59e0b">Strategies</text>
+
+  <text x="500" y="340" font-family="Arial, sans-serif" font-size="20" fill="#94a3b8">Building sustainable content practices</text>
+  <text x="500" y="370" font-family="Arial, sans-serif" font-size="20" fill="#94a3b8">that serve your mission</text>
+
+  <rect x="500" y="420" width="600" height="1" fill="#374151"/>
+
+  <text x="500" y="480" font-family="Georgia, serif" font-size="24" fill="#f59e0b">We Build Pillars</text>
+  <text x="500" y="510" font-family="Arial, sans-serif" font-size="16" fill="#64748b">Works &amp; Insights</text>
+
+  <rect x="0" y="615" width="1200" height="15" fill="#f59e0b"/>
+</svg>

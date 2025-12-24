@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad404" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1f2937"/>
+      <stop offset="100%" style="stop-color:#111827"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444"/>
+      <stop offset="100%" style="stop-color:#f87171"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgGrad404)"/>
+
+  <!-- Broken/Lost illustration -->
+  <g transform="translate(80, 120)">
+    <!-- Lost compass -->
+    <circle cx="150" cy="180" r="100" fill="#374151" stroke="#4b5563" stroke-width="4"/>
+    <circle cx="150" cy="180" r="80" fill="#1f2937"/>
+
+    <!-- Compass needle (broken/spinning) -->
+    <g transform="translate(150, 180) rotate(35)">
+      <polygon points="0,-60 10,-10 0,60 -10,-10" fill="#ef4444" opacity="0.8"/>
+    </g>
+
+    <!-- Cardinal directions (faded) -->
+    <text x="150" y="120" font-family="Arial, sans-serif" font-size="20" fill="#6b7280" text-anchor="middle">N</text>
+    <text x="150" y="260" font-family="Arial, sans-serif" font-size="20" fill="#6b7280" text-anchor="middle">S</text>
+    <text x="70" y="188" font-family="Arial, sans-serif" font-size="20" fill="#6b7280" text-anchor="middle">W</text>
+    <text x="230" y="188" font-family="Arial, sans-serif" font-size="20" fill="#6b7280" text-anchor="middle">E</text>
+
+    <!-- Question marks floating -->
+    <text x="280" y="100" font-family="Georgia, serif" font-size="50" fill="#4b5563">?</text>
+    <text x="50" y="320" font-family="Georgia, serif" font-size="40" fill="#4b5563">?</text>
+    <text x="300" y="280" font-family="Georgia, serif" font-size="35" fill="#4b5563">?</text>
+
+    <!-- Dotted path leading nowhere -->
+    <g stroke="#4b5563" stroke-width="3" stroke-dasharray="10,10" fill="none" opacity="0.5">
+      <path d="M280 180 Q350 180 380 220 Q410 260 380 300 Q350 340 300 340"/>
+    </g>
+  </g>
+
+  <!-- Text content -->
+  <g transform="translate(450, 0)">
+    <text x="0" y="150" font-family="Georgia, serif" font-size="28" fill="#6b7280">OOPS!</text>
+
+    <text x="0" y="250" font-family="Georgia, serif" font-size="120" font-weight="bold" fill="url(#redGrad)">404</text>
+
+    <text x="0" y="330" font-family="Georgia, serif" font-size="40" font-weight="bold" fill="#fff">Page Not Found</text>
+
+    <text x="0" y="390" font-family="Arial, sans-serif" font-size="22" fill="#9ca3af">This page seems to have wandered off</text>
+
+    <!-- Helpful navigation -->
+    <rect x="0" y="430" width="500" height="70" rx="12" fill="#7c3aed"/>
+    <text x="250" y="475" font-family="Arial, sans-serif" font-size="22" fill="#fff" text-anchor="middle">→ Go Back Home</text>
+
+    <text x="0" y="550" font-family="Arial, sans-serif" font-size="16" fill="#6b7280">webuildpillars.org</text>
+  </g>
+
+  <!-- Bottom accent -->
+  <rect x="0" y="615" width="1200" height="15" fill="url(#redGrad)"/>
+</svg>

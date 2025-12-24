@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgP1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgP1)"/>
+
+  <!-- Crown breaking apart into stars -->
+  <g transform="translate(100, 150)">
+    <polygon points="150,50 180,120 250,120 195,160 215,230 150,190 85,230 105,160 50,120 120,120" fill="#fbbf24" opacity="0.9"/>
+    <!-- Stars emerging -->
+    <polygon points="280,80 285,95 300,95 288,105 292,120 280,112 268,120 272,105 260,95 275,95" fill="#7c3aed"/>
+    <polygon points="320,140 323,150 333,150 325,156 328,166 320,160 312,166 315,156 307,150 317,150" fill="#ec4899"/>
+    <polygon points="60,100 63,110 73,110 65,116 68,126 60,120 52,126 55,116 47,110 57,110" fill="#10B981"/>
+    <polygon points="40,180 43,190 53,190 45,196 48,206 40,200 32,206 35,196 27,190 37,190" fill="#3b82f6"/>
+  </g>
+
+  <!-- Article info -->
+  <rect x="500" y="100" width="120" height="35" rx="17" fill="#7c3aed"/>
+  <text x="560" y="124" font-family="Arial, sans-serif" font-size="14" fill="#fff" text-anchor="middle">PHILOSOPHY</text>
+
+  <text x="500" y="200" font-family="Georgia, serif" font-size="56" font-weight="bold" fill="#fff">The Myth of</text>
+  <text x="500" y="270" font-family="Georgia, serif" font-size="56" font-weight="bold" fill="#fbbf24">Minority</text>
+
+  <text x="500" y="340" font-family="Arial, sans-serif" font-size="20" fill="#94a3b8">Why we reject deficit framing and</text>
+  <text x="500" y="370" font-family="Arial, sans-serif" font-size="20" fill="#94a3b8">embrace pillar community power</text>
+
+  <rect x="500" y="420" width="600" height="1" fill="#374151"/>
+
+  <text x="500" y="480" font-family="Georgia, serif" font-size="24" fill="#7c3aed">We Build Pillars</text>
+  <text x="500" y="510" font-family="Arial, sans-serif" font-size="16" fill="#64748b">Works &amp; Insights</text>
+
+  <rect x="0" y="615" width="1200" height="15" fill="#7c3aed"/>
+</svg>
