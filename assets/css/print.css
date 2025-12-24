@@ -1,0 +1,206 @@
+/**
+ * We Build Pillars - Print Stylesheet
+ * Optimized for printing pages
+ */
+
+@media print {
+  /* Reset and base styles */
+  *,
+  *::before,
+  *::after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Typography */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+
+  h1 { font-size: 24pt; }
+  h2 { font-size: 18pt; }
+  h3 { font-size: 14pt; }
+
+  p, li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* Links */
+  a,
+  a:visited {
+    text-decoration: underline;
+    color: #000 !important;
+  }
+
+  a[href^="http"]::after,
+  a[href^="https"]::after {
+    content: " (" attr(href) ")";
+    font-size: 10pt;
+    font-weight: normal;
+  }
+
+  a[href^="/"]::after,
+  a[href^="#"]::after {
+    content: "";
+  }
+
+  /* Hide non-essential elements */
+  .header,
+  .nav,
+  .nav-toggle,
+  .nav-overlay,
+  .skip-link,
+  .lang-switch,
+  .footer,
+  .btn,
+  .cta-block,
+  .section--cta,
+  .breadcrumb,
+  form,
+  video,
+  audio,
+  iframe {
+    display: none !important;
+  }
+
+  /* Main content */
+  main {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Page header */
+  .page-header {
+    padding: 0 0 1rem 0;
+    margin-bottom: 1rem;
+    border-bottom: 1pt solid #ccc;
+  }
+
+  .page-header__title {
+    margin: 0 0 0.5rem 0;
+  }
+
+  .page-header__subtitle {
+    margin: 0;
+    font-size: 12pt;
+  }
+
+  /* Sections */
+  .section {
+    padding: 1rem 0;
+    page-break-inside: avoid;
+  }
+
+  .section--light {
+    background: transparent !important;
+  }
+
+  /* Cards and grids */
+  .pillar-card,
+  .step-card,
+  .tier-card,
+  .tool-card,
+  .expect-card,
+  .faq-item {
+    page-break-inside: avoid;
+    border: 1pt solid #ccc;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .pillars-grid,
+  .steps-grid,
+  .tiers-grid,
+  .tools-grid,
+  .expect-grid {
+    display: block;
+  }
+
+  /* Images */
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+  }
+
+  /* Tables */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1pt solid #ccc;
+    padding: 0.25rem 0.5rem;
+    text-align: left;
+  }
+
+  /* FAQ accordions - show all content */
+  .faq-item__content {
+    display: block !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  .faq-item__toggle {
+    display: none;
+  }
+
+  /* Blog posts */
+  .post-card,
+  .article {
+    page-break-inside: avoid;
+  }
+
+  .post-card__image {
+    display: none;
+  }
+
+  /* Page breaks */
+  .page-break-before {
+    page-break-before: always;
+  }
+
+  .page-break-after {
+    page-break-after: always;
+  }
+
+  /* Print header */
+  @page {
+    margin: 2cm;
+    size: A4;
+  }
+
+  @page :first {
+    margin-top: 1cm;
+  }
+
+  /* Add site info at top of print */
+  body::before {
+    content: "We Build Pillars - webuildpillars.org";
+    display: block;
+    font-size: 10pt;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1pt solid #000;
+  }
+}

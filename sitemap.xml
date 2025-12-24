@@ -135,4 +135,97 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://webuildpillars.org/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://webuildpillars.org/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/privacidad.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/confidentialite.html"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Terms of Use -->
+  <url>
+    <loc>https://webuildpillars.org/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://webuildpillars.org/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/terminos.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/conditions.html"/>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Blog Posts -->
+  <url>
+    <loc>https://webuildpillars.org/works/posts/the-myth-of-minority.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/works/posts/who-gets-to-create.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/works/posts/differences-as-differentiation.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/works/posts/understanding-cms-systems.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/works/posts/seo-strategies-2025.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/works/posts/seo-strategies-2026.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/works/posts/content-creation-strategies.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/works/posts/why-no-social-media.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/works/posts/creating-a-community.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/works/posts/database-best-practices.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>

@@ -32,6 +32,7 @@
   const PAGE_MAPPINGS = {
     en: {
       '/': '/',
+      '/index': '/',
       '/about': '/about',
       '/how-it-works': '/how-it-works',
       '/request-domain': '/request-domain',
@@ -40,26 +41,36 @@
       '/ai-tools': '/ai-tools',
       '/faq': '/faq',
       '/contact': '/contact',
+      '/privacy': '/privacy',
+      '/terms': '/terms',
+      '/thank-you': '/thank-you',
+      '/404': '/404',
       '/pillars/nonprofits': '/pillars/nonprofits',
       '/pillars/artists': '/pillars/artists',
       '/pillars/knowledge-builders': '/pillars/knowledge-builders'
     },
     es: {
       '/': '/',
+      '/index': '/',
       '/about': '/sobre-nosotros',
       '/how-it-works': '/como-funciona',
       '/request-domain': '/solicitar-dominio',
-      '/success-stories': '/historias-de-exito',
+      '/success-stories': '/historias-exito',
       '/works': '/obras',
       '/ai-tools': '/herramientas-ia',
       '/faq': '/preguntas-frecuentes',
       '/contact': '/contacto',
+      '/privacy': '/privacidad',
+      '/terms': '/terminos',
+      '/thank-you': '/gracias',
+      '/404': '/404',
       '/pillars/nonprofits': '/pilares/organizaciones',
       '/pillars/artists': '/pilares/artistas',
       '/pillars/knowledge-builders': '/pilares/constructores-conocimiento'
     },
     fr: {
       '/': '/',
+      '/index': '/',
       '/about': '/a-propos',
       '/how-it-works': '/comment-ca-marche',
       '/request-domain': '/demander-domaine',
@@ -68,9 +79,13 @@
       '/ai-tools': '/outils-ia',
       '/faq': '/faq',
       '/contact': '/contact',
+      '/privacy': '/confidentialite',
+      '/terms': '/conditions',
+      '/thank-you': '/merci',
+      '/404': '/404',
       '/pillars/nonprofits': '/piliers/organisations',
       '/pillars/artists': '/piliers/artistes',
-      '/pillars/knowledge-builders': '/piliers/createurs-savoir'
+      '/pillars/knowledge-builders': '/piliers/batisseurs-savoir'
     }
   };
 
