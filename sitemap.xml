@@ -9,7 +9,7 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://webuildpillars.org/"/>
-    <lastmod>2025-12-25</lastmod>
+    <lastmod>2025-12-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -215,6 +215,269 @@
     <lastmod>2025-12-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
+  </url>
+
+  <!-- SEO Landing Pages - Nonprofits -->
+  <url>
+    <loc>https://webuildpillars.org/landing/nonprofits/free-domain-name-for-nonprofits.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/nonprofits/free-website-for-501c3.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/nonprofits/nonprofit-website-builder-free.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/nonprofits/donated-domains-for-nonprofits.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/nonprofits/free-web-hosting-for-nonprofits.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/nonprofits/free-org-domain-for-charity.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/nonprofits/how-to-get-free-domain-for-nonprofit.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/nonprofits/nonprofit-technology-assistance-programs.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/nonprofits/digital-resources-for-nonprofits.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/nonprofits/affordable-website-solutions-for-nonprofits.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/nonprofits/best-website-platforms-for-small-nonprofits.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- SEO Landing Pages - Minority/Underrepresented Communities -->
+  <url>
+    <loc>https://webuildpillars.org/landing/minority/free-website-for-black-owned-business.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/minority/digital-equity-programs.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/minority/free-domain-for-lgbtq-nonprofit.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/minority/website-help-for-indigenous-organizations.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/minority/free-web-services-for-women-led-organizations.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/minority/website-grants-for-minority-organizations.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/minority/technology-resources-for-minority-entrepreneurs.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/minority/digital-inclusion-programs.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/minority/free-tech-resources-for-underrepresented-groups.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/minority/website-assistance-for-marginalized-communities.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/minority/minority-nonprofit-technology-support.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- SEO Landing Pages - Artists/Creators -->
+  <url>
+    <loc>https://webuildpillars.org/landing/artists/free-website-for-artists.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/artists/free-domain-for-musicians.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/artists/free-website-builder-for-photographers.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/artists/portfolio-website-free-for-creatives.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/artists/how-to-get-professional-domain-as-artist.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/artists/free-web-hosting-for-independent-artists.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- SEO Landing Pages - Knowledge/Research/Hobby -->
+  <url>
+    <loc>https://webuildpillars.org/landing/knowledge/free-domain-for-educators.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/knowledge/free-website-for-researchers.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/knowledge/free-domain-for-educational-projects.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/knowledge/website-for-community-archives.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/knowledge/free-web-hosting-for-educators.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/knowledge/how-to-create-research-project-website.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/knowledge/free-website-for-historical-society.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/knowledge/domain-for-cultural-preservation-project.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://webuildpillars.org/landing/knowledge/free-website-for-hobby-clubs.html</loc>
+    <lastmod>2025-12-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 
 </urlset>
