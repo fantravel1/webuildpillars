@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGradMin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4c1d95"/>
+      <stop offset="100%" style="stop-color:#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="rainbowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444"/>
+      <stop offset="20%" style="stop-color:#f97316"/>
+      <stop offset="40%" style="stop-color:#eab308"/>
+      <stop offset="60%" style="stop-color:#22c55e"/>
+      <stop offset="80%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#a855f7"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a855f7"/>
+      <stop offset="100%" style="stop-color:#c084fc"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgGradMin)"/>
+
+  <!-- Decorative circles representing diversity -->
+  <circle cx="120" cy="200" r="120" fill="#ef4444" opacity="0.15"/>
+  <circle cx="200" cy="350" r="100" fill="#f97316" opacity="0.15"/>
+  <circle cx="100" cy="480" r="80" fill="#22c55e" opacity="0.15"/>
+  <circle cx="1100" cy="100" r="150" fill="#3b82f6" opacity="0.1"/>
+  <circle cx="1050" cy="500" r="100" fill="#a855f7" opacity="0.1"/>
+
+  <!-- Connected people illustration -->
+  <g transform="translate(80, 120)">
+    <!-- Central pillar/column -->
+    <rect x="130" y="100" width="40" height="280" rx="20" fill="url(#purpleGrad)" opacity="0.8"/>
+
+    <!-- People circles around pillar -->
+    <g transform="translate(150, 80)">
+      <!-- Top person -->
+      <circle cx="0" cy="-30" r="35" fill="#ef4444" opacity="0.9"/>
+      <circle cx="0" cy="-30" r="25" fill="#fca5a5"/>
+    </g>
+
+    <g transform="translate(70, 180)">
+      <!-- Left person -->
+      <circle cx="0" cy="0" r="35" fill="#f97316" opacity="0.9"/>
+      <circle cx="0" cy="0" r="25" fill="#fdba74"/>
+    </g>
+
+    <g transform="translate(230, 180)">
+      <!-- Right person -->
+      <circle cx="0" cy="0" r="35" fill="#22c55e" opacity="0.9"/>
+      <circle cx="0" cy="0" r="25" fill="#86efac"/>
+    </g>
+
+    <g transform="translate(70, 300)">
+      <!-- Bottom left -->
+      <circle cx="0" cy="0" r="35" fill="#3b82f6" opacity="0.9"/>
+      <circle cx="0" cy="0" r="25" fill="#93c5fd"/>
+    </g>
+
+    <g transform="translate(230, 300)">
+      <!-- Bottom right -->
+      <circle cx="0" cy="0" r="35" fill="#a855f7" opacity="0.9"/>
+      <circle cx="0" cy="0" r="25" fill="#d8b4fe"/>
+    </g>
+
+    <!-- Connection lines -->
+    <line x1="150" y1="80" x2="100" y2="150" stroke="#fff" stroke-width="2" opacity="0.3"/>
+    <line x1="150" y1="80" x2="200" y2="150" stroke="#fff" stroke-width="2" opacity="0.3"/>
+    <line x1="100" y1="210" x2="100" y2="270" stroke="#fff" stroke-width="2" opacity="0.3"/>
+    <line x1="200" y1="210" x2="200" y2="270" stroke="#fff" stroke-width="2" opacity="0.3"/>
+    <line x1="100" y1="180" x2="200" y2="180" stroke="#fff" stroke-width="2" opacity="0.3"/>
+    <line x1="100" y1="300" x2="200" y2="300" stroke="#fff" stroke-width="2" opacity="0.3"/>
+  </g>
+
+  <!-- Text content -->
+  <g transform="translate(420, 0)">
+    <text x="0" y="140" font-family="Georgia, serif" font-size="24" fill="#c4b5fd">PILLAR COMMUNITIES</text>
+
+    <text x="0" y="210" font-family="Georgia, serif" font-size="60" font-weight="bold" fill="#fff">Digital Equity</text>
+    <text x="0" y="280" font-family="Georgia, serif" font-size="60" font-weight="bold" fill="url(#rainbowGrad)">For All</text>
+
+    <text x="0" y="340" font-family="Arial, sans-serif" font-size="22" fill="#e9d5ff">Underrepresented &amp; Marginalized Communities</text>
+
+    <!-- Key benefits -->
+    <g transform="translate(0, 380)">
+      <circle cx="15" cy="15" r="10" fill="#a855f7"/>
+      <text x="35" y="21" font-family="Arial, sans-serif" font-size="18" fill="#f3e8ff">Premium domains valued $500-$100,000+</text>
+
+      <circle cx="15" cy="55" r="10" fill="#a855f7"/>
+      <text x="35" y="61" font-family="Arial, sans-serif" font-size="18" fill="#f3e8ff">100% free for qualifying organizations</text>
+
+      <circle cx="15" cy="95" r="10" fill="#a855f7"/>
+      <text x="35" y="101" font-family="Arial, sans-serif" font-size="18" fill="#f3e8ff">Full ownership transferred to you</text>
+    </g>
+  </g>
+
+  <!-- Floating domain example -->
+  <rect x="850" y="450" width="300" height="60" rx="30" fill="url(#purpleGrad)" opacity="0.9"/>
+  <text x="1000" y="490" font-family="monospace" font-size="24" fill="#1e1b4b" text-anchor="middle">YourCommunity.org</text>
+
+  <!-- Bottom accent with rainbow -->
+  <rect x="0" y="615" width="1200" height="15" fill="url(#rainbowGrad)"/>
+</svg>

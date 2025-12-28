@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGradCom" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c2d12"/>
+      <stop offset="100%" style="stop-color:#9a3412"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f97316"/>
+      <stop offset="100%" style="stop-color:#fb923c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgGradCom)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="150" cy="100" r="200" fill="#f97316" opacity="0.1"/>
+  <circle cx="1050" cy="500" r="180" fill="#fb923c" opacity="0.1"/>
+
+  <!-- Community/People illustration -->
+  <g transform="translate(100, 140)">
+    <!-- Central connection circle -->
+    <circle cx="150" cy="150" r="120" fill="#f97316" opacity="0.3"/>
+    <circle cx="150" cy="150" r="80" fill="#9a3412"/>
+
+    <!-- Connected people figures -->
+    <!-- Top person -->
+    <circle cx="150" cy="60" r="30" fill="#fff" opacity="0.9"/>
+    <ellipse cx="150" cy="110" rx="25" ry="20" fill="#fff" opacity="0.9"/>
+
+    <!-- Left person -->
+    <circle cx="60" cy="180" r="28" fill="#fed7aa" opacity="0.9"/>
+    <ellipse cx="60" cy="225" rx="22" ry="18" fill="#fed7aa" opacity="0.9"/>
+
+    <!-- Right person -->
+    <circle cx="240" cy="180" r="28" fill="#fdba74" opacity="0.9"/>
+    <ellipse cx="240" cy="225" rx="22" ry="18" fill="#fdba74" opacity="0.9"/>
+
+    <!-- Bottom left person -->
+    <circle cx="90" cy="280" r="26" fill="#ffedd5" opacity="0.9"/>
+    <ellipse cx="90" cy="320" rx="20" ry="16" fill="#ffedd5" opacity="0.9"/>
+
+    <!-- Bottom right person -->
+    <circle cx="210" cy="280" r="26" fill="#fff7ed" opacity="0.9"/>
+    <ellipse cx="210" cy="320" rx="20" ry="16" fill="#fff7ed" opacity="0.9"/>
+
+    <!-- Connection lines -->
+    <line x1="150" y1="130" x2="80" y2="170" stroke="#f97316" stroke-width="3" opacity="0.7"/>
+    <line x1="150" y1="130" x2="220" y2="170" stroke="#f97316" stroke-width="3" opacity="0.7"/>
+    <line x1="80" y1="220" x2="100" y2="260" stroke="#f97316" stroke-width="3" opacity="0.7"/>
+    <line x1="220" y1="220" x2="200" y2="260" stroke="#f97316" stroke-width="3" opacity="0.7"/>
+
+    <!-- Hands/hearts symbol in center -->
+    <path d="M150 150 C150 130 130 115 115 130 C100 145 100 165 115 180 L150 215 L185 180 C200 165 200 145 185 130 C170 115 150 130 150 150"
+          fill="#f97316" opacity="0.9"/>
+  </g>
+
+  <!-- Text content -->
+  <g transform="translate(450, 0)">
+    <text x="0" y="140" font-family="Georgia, serif" font-size="24" fill="#fdba74">PILLAR COMMUNITY</text>
+
+    <text x="0" y="210" font-family="Georgia, serif" font-size="60" font-weight="bold" fill="#fff">Community</text>
+    <text x="0" y="280" font-family="Georgia, serif" font-size="60" font-weight="bold" fill="url(#orangeGrad)">Organizations</text>
+
+    <text x="0" y="340" font-family="Arial, sans-serif" font-size="22" fill="#fed7aa">Mutual Aid · Grassroots · Co-ops · Faith</text>
+
+    <!-- Key benefits -->
+    <g transform="translate(0, 380)">
+      <circle cx="15" cy="15" r="10" fill="#f97316"/>
+      <text x="35" y="21" font-family="Arial, sans-serif" font-size="18" fill="#ffedd5">Build community infrastructure</text>
+
+      <circle cx="15" cy="55" r="10" fill="#f97316"/>
+      <text x="35" y="61" font-family="Arial, sans-serif" font-size="18" fill="#ffedd5">Strengthen local connections</text>
+
+      <circle cx="15" cy="95" r="10" fill="#f97316"/>
+      <text x="35" y="101" font-family="Arial, sans-serif" font-size="18" fill="#ffedd5">100% free for qualifying orgs</text>
+    </g>
+  </g>
+
+  <!-- Floating domain example -->
+  <rect x="850" y="450" width="280" height="60" rx="30" fill="url(#orangeGrad)" opacity="0.9"/>
+  <text x="990" y="490" font-family="monospace" font-size="24" fill="#7c2d12" text-anchor="middle">Community.org</text>
+
+  <!-- Bottom accent -->
+  <rect x="0" y="615" width="1200" height="15" fill="url(#orangeGrad)"/>
+</svg>
