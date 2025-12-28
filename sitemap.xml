@@ -635,12 +635,58 @@
   <!-- New Pillar Pages - Added 2025-12-28 -->
   <url>
     <loc>https://webuildpillars.org/pillars/underrepresented.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://webuildpillars.org/pillars/underrepresented.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/pilares/subrepresentados.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/piliers/sous-representes.html"/>
     <lastmod>2025-12-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://webuildpillars.org/pillars/community.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://webuildpillars.org/pillars/community.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/pilares/comunidad.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/piliers/communaute.html"/>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Spanish Pillar Pages - Added 2025-12-28 -->
+  <url>
+    <loc>https://webuildpillars.org/es/pilares/subrepresentados.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://webuildpillars.org/pillars/underrepresented.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/pilares/subrepresentados.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/piliers/sous-representes.html"/>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://webuildpillars.org/es/pilares/comunidad.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://webuildpillars.org/pillars/community.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/pilares/comunidad.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/piliers/communaute.html"/>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- French Pillar Pages - Added 2025-12-28 -->
+  <url>
+    <loc>https://webuildpillars.org/fr/piliers/sous-representes.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://webuildpillars.org/pillars/underrepresented.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/pilares/subrepresentados.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/piliers/sous-representes.html"/>
+    <lastmod>2025-12-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://webuildpillars.org/fr/piliers/communaute.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://webuildpillars.org/pillars/community.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://webuildpillars.org/es/pilares/comunidad.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://webuildpillars.org/fr/piliers/communaute.html"/>
     <lastmod>2025-12-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
