@@ -1,0 +1,18 @@
+# Security Policy for We Build Pillars
+# https://webuildpillars.com
+
+Contact: https://webuildpillars.com/contact.html
+Expires: 2026-12-31T23:59:00.000Z
+Preferred-Languages: en, es, fr
+
+# About We Build Pillars
+# We are a nonprofit domain gifting platform supporting underrepresented communities.
+# We take security seriously and appreciate responsible disclosure.
+
+# Scope
+# This security policy applies to:
+# - webuildpillars.com
+# - All subdomains of webuildpillars.com
+
+# Acknowledgments
+# We appreciate the security research community's efforts to improve internet security.

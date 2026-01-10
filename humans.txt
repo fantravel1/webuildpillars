@@ -1,0 +1,28 @@
+/* TEAM */
+Organization: We Build Pillars
+Parent Company: Pillar Media & Entertainment
+Site: https://webuildpillars.com
+Location: United States
+
+/* MISSION */
+We gift premium domains worth $260M+ to nonprofits, artists, and knowledge
+builders from pillar communities. Black, Brown, Queer, Indigenous, neurodiverse,
+female, migrant, and differently abled creators deserve digital equity.
+
+/* THANKS */
+Thanks to everyone working toward digital equity and inclusion.
+Thanks to open source contributors making the web accessible to all.
+
+/* SITE */
+Last update: 2025/01
+Language: English, Spanish, French
+Standards: HTML5, CSS3, JavaScript ES6+
+Software: Static HTML, GitHub Pages
+Design: Mobile-first, WCAG 2.1 AA compliant
+
+/* PILLARS */
+- Nonprofits: Mission-driven organizations
+- Artists: Creative visionaries
+- Knowledge Builders: Educators, researchers, archivists
+- Community: Cooperatives, mutual aid, grassroots
+- Underrepresented: Minority-led organizations
