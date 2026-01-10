@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Meilleures pratiques pour les bases de donnees | We Build Pillars</title>
+  <meta name="description" content="Fondamentaux de la gestion des donnees pour les organisations construisant des archives numeriques. Apprenez a structurer, proteger et exploiter les donnees de votre organisation.">
+  <meta name="keywords" content="meilleures pratiques bases donnees, donnees association, CRM, gestion donnees, archive numerique">
+
+  <link rel="canonical" href="https://webuildpillars.com/fr/travaux/posts/database-best-practices.html">
+  <link rel="alternate" hreflang="en" href="https://webuildpillars.com/works/posts/database-best-practices.html">
+  <link rel="alternate" hreflang="fr" href="https://webuildpillars.com/fr/travaux/posts/database-best-practices.html">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Meilleures pratiques pour les bases de donnees | We Build Pillars">
+  <meta property="article:section" content="Technique">
+
+  <link rel="icon" type="image/svg+xml" href="/assets/images/icons/favicon.svg">
+  <meta name="theme-color" content="#7c3aed">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/variables.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Aller au contenu principal</a>
+
+  <header class="header">
+    <div class="container header__container">
+      <a href="/fr/" class="logo"><span class="logo__text">We Build Pillars</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav"><span class="nav-toggle__bar"></span><span class="nav-toggle__bar"></span><span class="nav-toggle__bar"></span></button>
+      <nav class="nav" id="main-nav" data-visible="false">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="/fr/" class="nav__link">Accueil</a></li>
+          <li class="nav__item"><a href="/fr/a-propos.html" class="nav__link">A propos</a></li>
+          <li class="nav__item"><a href="/fr/comment-ca-marche.html" class="nav__link">Comment ca marche</a></li>
+          <li class="nav__item"><a href="/fr/piliers/associations.html" class="nav__link">Piliers</a></li>
+          <li class="nav__item"><a href="/fr/travaux.html" class="nav__link nav__link--active">Travaux</a></li>
+          <li class="nav__item"><a href="/fr/faq.html" class="nav__link">FAQ</a></li>
+          <li class="nav__item"><a href="/fr/contact.html" class="nav__link">Contact</a></li>
+        </ul>
+        <a href="/fr/demander-un-domaine.html" class="btn btn--primary nav__cta">Demander un domaine</a>
+      </nav>
+      <div class="nav-overlay" data-visible="false"></div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <article class="article">
+      <header class="article__header">
+        <div class="container container--narrow">
+          <nav class="breadcrumb"><ol class="breadcrumb__list"><li class="breadcrumb__item"><a href="/fr/">Accueil</a></li><li class="breadcrumb__item"><a href="/fr/travaux.html">Travaux</a></li><li class="breadcrumb__item" aria-current="page">Meilleures pratiques pour les bases de donnees</li></ol></nav>
+          <div class="article__meta">
+            <span class="article__category">Technique</span>
+            <time class="article__date" datetime="2025-01-01">Janvier 2025</time>
+          </div>
+          <h1 class="article__title">Meilleures pratiques pour les bases de donnees</h1>
+          <p class="article__subtitle">Fondamentaux de la gestion des donnees pour les organisations construisant des archives numeriques.</p>
+        </div>
+      </header>
+
+      <div class="article__body">
+        <div class="container container--narrow">
+          <div class="prose">
+            <p class="lead">
+              Les donnees de votre organisation sont l'un de ses actifs les plus precieux. Que vous geriez des dossiers de donateurs, des archives communautaires ou des portfolios creatifs, la facon dont vous structurez et protegez ces donnees compte.
+            </p>
+
+            <h2>Commencez par l'objectif</h2>
+            <p>
+              Avant de choisir une base de donnees, repondez a ces questions :
+            </p>
+            <ul>
+              <li><strong>Quelles donnees collectez-vous ?</strong> Contacts, dons, contenu, informations membres ?</li>
+              <li><strong>Qui a besoin d'acces ?</strong> Personnel, benevoles, le public ?</li>
+              <li><strong>Comment allez-vous les utiliser ?</strong> Rapports, sensibilisation, archivage, analyse ?</li>
+              <li><strong>Quelle est votre trajectoire de croissance ?</strong> 100 enregistrements ou 100 000 ?</li>
+            </ul>
+
+            <h2>Types courants de bases de donnees</h2>
+
+            <h3>CRM (Gestion de la relation client)</h3>
+            <p>
+              Pour gerer les relations avec les donateurs, membres ou clients. Options populaires pour les associations :
+            </p>
+            <ul>
+              <li><strong>Salesforce Nonprofit :</strong> Puissant mais complexe, gratuit pour les associations eligibles</li>
+              <li><strong>Bloomerang :</strong> Axe sur les donateurs, courbe d'apprentissage plus facile</li>
+              <li><strong>Airtable :</strong> Flexible, bon pour les petites organisations</li>
+            </ul>
+
+            <h3>Bases de donnees de gestion de contenu</h3>
+            <p>
+              Pour gerer articles, medias ou oeuvres creatives. La plupart des plateformes CMS (WordPress, etc.) ont des bases de donnees integrees. Pour les archives plus importantes :
+            </p>
+            <ul>
+              <li><strong>Omeka :</strong> Concu pour les archives du patrimoine culturel</li>
+              <li><strong>CollectiveAccess :</strong> Pour les musees et archives</li>
+            </ul>
+
+            <h3>Tableurs (quand c'est approprie)</h3>
+            <p>
+              Parfois un tableur bien organise suffit. Utilisez des tableurs quand :
+            </p>
+            <ul>
+              <li>Vous avez moins de 1 000 enregistrements</li>
+              <li>Vous n'avez pas besoin de relations complexes entre les donnees</li>
+              <li>Vous avez une capacite technique limitee</li>
+              <li>Vous debutez</li>
+            </ul>
+
+            <h2>Meilleures pratiques fondamentales</h2>
+
+            <h3>1. Hygiene des donnees</h3>
+            <ul>
+              <li><strong>Formatage coherent :</strong> Decidez des normes (dates, numeros de telephone, adresses) et appliquez-les</li>
+              <li><strong>Nettoyage regulier :</strong> Supprimez les doublons, mettez a jour les informations obsoletes trimestriellement</li>
+              <li><strong>Champs obligatoires :</strong> Definissez quelles informations sont essentielles vs optionnelles</li>
+            </ul>
+
+            <h3>2. Securite et confidentialite</h3>
+            <ul>
+              <li><strong>Controle d'acces :</strong> Limitez qui peut voir/modifier les donnees sensibles</li>
+              <li><strong>Chiffrement :</strong> Protegez les donnees en transit et au repos</li>
+              <li><strong>Conformite vie privee :</strong> Connaissez vos obligations (RGPD, lois nationales)</li>
+              <li><strong>Minimisation des donnees :</strong> Ne collectez que ce dont vous avez reellement besoin</li>
+            </ul>
+
+            <h3>3. Sauvegarde et recuperation</h3>
+            <ul>
+              <li><strong>Sauvegardes regulieres :</strong> Automatisees, hors site, testees regulierement</li>
+              <li><strong>Historique des versions :</strong> Capacite a recuperer des erreurs</li>
+              <li><strong>Plan de catastrophe :</strong> Sachez comment vous recupereriez si tout echouait</li>
+            </ul>
+
+            <h3>4. Documentation</h3>
+            <ul>
+              <li><strong>Dictionnaire de donnees :</strong> Documentez ce que chaque champ signifie et comment il est utilise</li>
+              <li><strong>Documentation des processus :</strong> Comment les donnees sont saisies, nettoyees et maintenues</li>
+              <li><strong>Journaux d'acces :</strong> Sachez qui a accede a quoi et quand</li>
+            </ul>
+
+            <h2>Pour les batisseurs de savoir : considerations d'archivage</h2>
+            <p>
+              Si vous preservez du contenu culturel ou historique, des considerations supplementaires s'appliquent :
+            </p>
+            <ul>
+              <li><strong>Normes de metadonnees :</strong> Utilisez des normes etablies (Dublin Core, etc.) pour la decouvrabilite</li>
+              <li><strong>Formats de fichiers :</strong> Privilegiez les formats ouverts et non proprietaires pour l'acces a long terme</li>
+              <li><strong>Provenance :</strong> Documentez d'ou viennent les materiaux et la chaine de conservation</li>
+              <li><strong>Gestion des droits :</strong> Suivez les droits d'auteur, permissions, sensibilites culturelles</li>
+            </ul>
+
+            <div class="article__cta">
+              <h3>Construisez la maison de votre archive</h3>
+              <p>Un nom de domaine premium donne a votre archive une adresse permanente et professionnelle.</p>
+              <a href="/fr/demander-un-domaine.html" class="btn btn--primary">Demander un domaine</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <section class="section section--light">
+      <div class="container">
+        <h2 class="section__title">Articles connexes</h2>
+        <div class="posts-grid posts-grid--three">
+          <article class="post-card"><div class="post-card__content"><span class="post-card__category">Technique</span><h3 class="post-card__title"><a href="/fr/travaux/posts/understanding-cms-systems.html">Comprendre les systemes CMS</a></h3></div></article>
+          <article class="post-card"><div class="post-card__content"><span class="post-card__category">SEO</span><h3 class="post-card__title"><a href="/fr/travaux/posts/seo-strategies-2025.html">Strategies SEO pour 2025</a></h3></div></article>
+          <article class="post-card"><div class="post-card__content"><span class="post-card__category">Contenu</span><h3 class="post-card__title"><a href="/fr/travaux/posts/content-creation-strategies.html">Strategies de creation de contenu</a></h3></div></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand"><a href="/fr/" class="logo logo--footer"><span class="logo__text">We Build Pillars</span></a></div>
+        <nav class="footer__nav"><h3 class="footer__heading">Naviguer</h3><ul class="footer__list"><li><a href="/fr/a-propos.html">A propos</a></li><li><a href="/fr/comment-ca-marche.html">Comment ca marche</a></li><li><a href="/fr/demander-un-domaine.html">Demander un domaine</a></li></ul></nav>
+        <nav class="footer__nav"><h3 class="footer__heading">Piliers</h3><ul class="footer__list"><li><a href="/fr/piliers/associations.html">Associations</a></li><li><a href="/fr/piliers/artistes.html">Artistes</a></li><li><a href="/fr/piliers/batisseurs-de-savoir.html">Batisseurs de savoir</a></li></ul></nav>
+        <nav class="footer__nav"><h3 class="footer__heading">Ressources</h3><ul class="footer__list"><li><a href="/fr/travaux.html">Travaux</a></li><li><a href="/fr/faq.html">FAQ</a></li><li><a href="/fr/contact.html">Contact</a></li></ul></nav>
+      </div>
+      <div class="footer__bottom"><p class="footer__copyright">&copy; <span id="current-year">2025</span> We Build Pillars.</p></div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/language.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
