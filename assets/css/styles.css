@@ -575,7 +575,6 @@ li {
 }
 
 .hero__content {
-  max-width: 680px;
   position: relative;
   z-index: 1;
 }
@@ -2273,7 +2272,6 @@ li {
 
   .hero__subtitle {
     font-size: var(--text-xl);
-    max-width: 580px;
     line-height: 1.7;
   }
 
@@ -2283,7 +2281,7 @@ li {
   }
 
   .hero__illustration-img {
-    max-width: 500px;
+    max-width: 100%;
   }
 
   .stats {
@@ -2514,7 +2512,6 @@ li {
 
 .hero__illustration {
   display: none;
-  max-width: 500px;
   width: 100%;
   animation: float 4s ease-in-out infinite;
 }
@@ -2754,7 +2751,9 @@ li {
 /* Responsive hero illustration */
 @media (min-width: 768px) {
   .hero__illustration {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .hero .container {
@@ -2767,7 +2766,7 @@ li {
 
 @media (min-width: 1024px) {
   .hero__illustration {
-    max-width: 550px;
+    max-width: none;
   }
 
   .pillar-card {
@@ -2847,7 +2846,9 @@ li {
   }
 
   .hero__illustration {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .hero__bg-shapes-img {
@@ -2862,10 +2863,6 @@ li {
   .hero__bg-shapes-img {
     width: 800px;
     height: 800px;
-  }
-
-  .hero__illustration-img {
-    max-width: 450px;
   }
 }
 
