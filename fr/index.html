@@ -128,16 +128,19 @@
         <span class="logo__text">We Build Pillars</span>
       </a>
 
-      <!-- Mobile Nav Toggle -->
-      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Basculer le menu de navigation">
-        <span class="nav-toggle__icon">
-          <span class="nav-toggle__bar"></span>
-          <span class="nav-toggle__bar"></span>
-          <span class="nav-toggle__bar"></span>
-        </span>
-      </button>
+      <!-- Header Actions: Hamburger + CTA -->
+      <div class="header__actions">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Basculer le menu de navigation">
+          <span class="nav-toggle__icon">
+            <span class="nav-toggle__bar"></span>
+            <span class="nav-toggle__bar"></span>
+            <span class="nav-toggle__bar"></span>
+          </span>
+        </button>
+        <a href="/fr/demander-domaine.html" class="btn btn--primary header__cta">Demander un Domaine</a>
+      </div>
 
-      <!-- Navigation -->
+      <!-- Navigation (slide-out menu) -->
       <nav class="nav" id="main-nav" data-visible="false" aria-label="Navigation principale">
         <ul class="nav__list">
           <li class="nav__item">
@@ -169,12 +172,9 @@
           <button class="lang-switch__btn" data-lang="es" aria-label="Español">ES</button>
           <button class="lang-switch__btn lang-switch__btn--active" data-lang="fr" aria-label="Français">FR</button>
         </div>
-
-        <!-- CTA Button (Desktop) -->
-        <a href="/fr/demander-domaine.html" class="btn btn--primary nav__cta">Demander un Domaine</a>
       </nav>
 
-      <!-- Nav Overlay for Mobile -->
+      <!-- Nav Overlay -->
       <div class="nav-overlay" data-visible="false" aria-hidden="true"></div>
     </div>
   </header>

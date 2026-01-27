@@ -285,7 +285,20 @@ li {
   height: 32px;
 }
 
-/* Mobile menu button (hamburger) */
+/* Header actions: hamburger + CTA grouped on the right */
+.header__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.header__cta {
+  padding: var(--space-2) var(--space-5);
+  font-size: var(--text-sm);
+  white-space: nowrap;
+}
+
+/* Menu button (hamburger) - always visible */
 .nav-toggle {
   display: flex;
   flex-direction: column;
@@ -1951,75 +1964,7 @@ li {
     padding: var(--space-24) 0;
   }
 
-  /* Desktop navigation - clean horizontal layout */
-  .nav-toggle {
-    display: none;
-  }
-
-  .nav-overlay {
-    display: none;
-  }
-
-  .nav {
-    position: static;
-    width: auto;
-    padding: 0;
-    transform: none;
-    box-shadow: none;
-    overflow: visible;
-    display: flex;
-    align-items: center;
-    gap: var(--space-2);
-    background: transparent;
-  }
-
-  .nav__list {
-    display: flex;
-    align-items: center;
-    gap: var(--space-1);
-  }
-
-  .nav__item {
-    margin-bottom: 0;
-  }
-
-  .nav__link {
-    padding: var(--space-2) var(--space-3);
-    min-height: auto;
-    font-size: var(--text-sm);
-    border-radius: var(--radius-lg);
-    font-weight: var(--font-medium);
-  }
-
-  .nav__link:hover {
-    background: var(--color-primary-bg);
-    transform: none;
-  }
-
-  .nav__link--active {
-    font-weight: var(--font-semibold);
-  }
-
-  .nav__link--active::before {
-    display: none;
-  }
-
-  .nav__cta {
-    margin-top: 0;
-    margin-left: var(--space-4);
-    padding: var(--space-2) var(--space-5);
-    font-size: var(--text-sm);
-    width: auto;
-  }
-
-  .lang-switch {
-    border: none;
-    margin: 0;
-    padding: 0;
-    margin-left: var(--space-3);
-    border-left: 1px solid rgba(0, 0, 0, 0.08);
-    padding-left: var(--space-3);
-  }
+  /* Desktop: keep hamburger menu, just adjust spacing */
 
   .lang-switch__btn {
     min-width: auto;
@@ -2239,17 +2184,8 @@ li {
     max-width: 1400px;
   }
 
-  /* Large desktop navigation spacing */
-  .nav__list {
-    gap: var(--space-2);
-  }
-
-  .nav__link {
-    padding: var(--space-2) var(--space-4);
-    font-size: var(--text-base);
-  }
-
-  .nav__cta {
+  /* Large desktop header CTA */
+  .header__cta {
     padding: var(--space-3) var(--space-6);
     font-size: var(--text-base);
   }
