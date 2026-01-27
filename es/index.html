@@ -73,11 +73,16 @@
         <span class="logo__text">We Build Pillars</span>
       </a>
 
-      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Alternar menú de navegación">
-        <span class="nav-toggle__bar"></span>
-        <span class="nav-toggle__bar"></span>
-        <span class="nav-toggle__bar"></span>
-      </button>
+      <div class="header__actions">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Alternar menú de navegación">
+          <span class="nav-toggle__icon">
+            <span class="nav-toggle__bar"></span>
+            <span class="nav-toggle__bar"></span>
+            <span class="nav-toggle__bar"></span>
+          </span>
+        </button>
+        <a href="/es/solicitar-dominio.html" class="btn btn--primary header__cta">Solicitar Dominio</a>
+      </div>
 
       <nav class="nav" id="main-nav" data-visible="false" aria-label="Navegación principal">
         <ul class="nav__list">
@@ -109,8 +114,6 @@
           <button class="lang-switch__btn lang-switch__btn--active" data-lang="es" aria-label="Español">ES</button>
           <button class="lang-switch__btn" data-lang="fr" aria-label="Français">FR</button>
         </div>
-
-        <a href="/es/solicitar-dominio.html" class="btn btn--primary nav__cta">Solicitar Dominio</a>
       </nav>
 
       <div class="nav-overlay" data-visible="false" aria-hidden="true"></div>
