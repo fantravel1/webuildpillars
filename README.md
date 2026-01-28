@@ -48,7 +48,7 @@ The internet was supposed to democratize creation. Instead, it concentrated powe
 
 **No one in the entire digital equity ecosystem provides premium domain names.**
 
-We Build Pillars changes that with a $260M+ domain portfolio and AI build credits for:
+We Build Pillars changes that with a $126M+ domain portfolio and AI build credits for:
 - 🏛️ **Nonprofits** whose missions deserve authoritative URLs
 - 🎨 **Artists** who platforms have suppressed and underpaid
 - 📚 **Knowledge Builders** preserving underrepresented stories

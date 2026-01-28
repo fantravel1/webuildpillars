@@ -1,8 +1,8 @@
 # RETAKE THE WEB: The Unified Vision for We Build Pillars
 
-## The $260M+ Gift That Changes Everything
+## The $126M+ Gift That Changes Everything
 
-**We Build Pillars** is pioneering a new category of digital philanthropy: **Premium Domain Gifting**. With Pillar Media's portfolio of 12,000+ premium domains valued at over $260 million, we're giving away the internet's most valuable real estate to those who will fill it with massive, beautiful things.
+**We Build Pillars** is pioneering a new category of digital philanthropy: **Premium Domain Gifting**. With Pillar Media's portfolio of 12,000+ premium domains valued at over $126 million, we're giving away the internet's most valuable real estate to those who will fill it with massive, beautiful things.
 
 No one else is doing this. Not Google. Not Microsoft. Not any foundation. The entire digital equity ecosystem provides free software, hosting credits, and grants — but the most authoritative, memorable URLs remain locked behind five, six, and seven-figure price tags.
 
