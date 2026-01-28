@@ -353,6 +353,11 @@ li {
   transform: translateY(-7px) rotate(-45deg);
 }
 
+/* Ensure hamburger button stays above nav when open */
+.nav-toggle[aria-expanded="true"] {
+  z-index: 10000;
+}
+
 /* Navigation - Mobile slide-out menu */
 .nav {
   position: fixed;
@@ -371,6 +376,7 @@ li {
 
 .nav[data-visible="true"] {
   transform: translateX(0);
+  z-index: 9999;
 }
 
 .nav__list {
@@ -443,6 +449,7 @@ li {
 .nav-overlay[data-visible="true"] {
   opacity: 1;
   visibility: visible;
+  z-index: 9998;
 }
 
 /* Language switcher */
