@@ -1445,12 +1445,25 @@ li {
   font-weight: var(--font-medium);
   font-size: var(--text-sm);
   border: 1px solid rgba(124, 58, 237, 0.2);
-  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast), background var(--transition-fast), border-color var(--transition-fast);
+  cursor: pointer;
 }
 
 .pillars-list__item:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  border-color: var(--color-primary);
+}
+
+.pillars-list__item a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+.pillars-list__item:hover a {
+  color: white;
 }
 
 @media (min-width: 768px) {
