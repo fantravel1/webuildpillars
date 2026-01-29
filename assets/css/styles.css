@@ -2966,6 +2966,21 @@ li {
   gap: var(--space-3);
 }
 
+/* Stretched link - makes entire card clickable */
+.pillar-card__link::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.pillar-card {
+  cursor: pointer;
+}
+
 .pillar-card--nonprofit:hover {
   border-color: #10B981;
 }
